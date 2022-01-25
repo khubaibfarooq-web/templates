@@ -1,0 +1,105 @@
+/*======
+*
+* 10. Responsive
+*
+======*/
+	@media (max-width: 1415px) {
+
+	}
+
+	@media (max-width: 1310px) {
+		
+	}
+
+	@media (max-width: 1300px) {
+		
+	}
+
+	@media (max-width: 1199px) {	
+
+	}
+
+	@media (max-width: 1160px) {
+	
+	}
+
+	@media (max-width: 1050px) {
+	
+	}
+
+	@media (max-width: 999px) {
+	
+	}
+
+	@media (max-width: 991px) {
+		
+	}
+
+	@media (max-width: 950px) {
+	
+	}
+
+	@media (max-width: 900px) {
+	
+	}
+
+	@media (max-width: 767px) {
+	
+	}
+
+	@media (max-width: 600px) {
+	
+	}
+
+	@media (max-width: 500px) {
+		
+	}
+
+	@media (max-width: 480px) {
+	
+	}
+
+	@media (max-width: 450px) {
+		
+	}
+
+
+	@media (max-width: 400px) {
+
+				.balance-info {
+			padding-top: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px;
+			padding-left: 15px;
+		}
+		.users-offers {
+			flex-direction: column;
+		}
+		.users-offers-item {
+			margin-right: 0px;
+			margin-bottom: 15px;
+		}
+
+		.offer-detail-active-wrapper {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.offer-detail-active-wrapper:nth-child(1){
+			border-top: none;
+		}
+		.pack-details li {
+			font-size: 13px;
+		}
+		.offer-active-btn{
+			margin-top: 20px;
+		}
+		
+	}
+
+
+	@media (max-width: 320px) {
+
+
+
+	}
+	

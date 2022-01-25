@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+font-family: 'csgo';
+src: url('../fonts/cs_regular.ttf');
+}
+@font-face {
+font-family: 'robo';
+src: url('../fonts/RobotoSlab-Bold.ttf');
+}
+@font-face {
+font-family: 'robo-thin';
+src: url('../fonts/RobotoSlab-Thin.ttf');
+}
+@font-face {
+font-family: 'gafta';
+src: url('../fonts/Gafata-Regular.ttf');
+}
+
+body{
+	background-color: #fafafa;
+}
+
+
+.position-nav{
+z-index: 9;
+/*position:  absolute !important;*/
+top: 0 !important;
+left: 0;
+right: 0;
+}
+.position-carousel{
+/*position:absolute;
+width:100%;
+top:0;*/
+}
+.custom-nav-bg{
+/*ackground: rgba(0,0,0,.6) !important;*/
+
+background: rgb(42, 43, 45) !important;
+opacity: 1;
+}
+.navbar-brand{
+color: #fff !important;
+font-family: csgo;
+font-size: 30px;
+}
+.nav-link{
+/*color: #fff !important;*/
+font-family: csgo;
+font-size: 20px;
+color: rgba(255,255,255,.8) !important; 
+}
+
+.crsl-img{
+width: 100%;
+height: 700px;
+}
+.crsl-img img{
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.crsl-img::after{
+content:"";
+position:absolute;
+left:0;
+top:0;
+right:0;
+bottom:0;
+background: -webkit-gradient(linear, left bottom, left top, from(#222), to(transparent));
+background: linear-gradient(to top, #222 0%, transparent 100%);
+opacity:0.5;
+-webkit-transition:0.2s opacity;
+transition:0.2s opacity;
+}
+.carousel-caption{
+top: 44% !important;
+}
+.owl-caption{
+font-size: 50px;
+font-weight: 901;
+color: #fff;
+font-family: csgo;
+}
+
+.owl-caption-detail{
+margin: 10px 0 50px !important;
+font-size: 1.125rem !important;
+font-family: robo;
+color:rgba(255,255,255,.7) !important;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+height: 35px!important;
+width: 35px !important;
+}
+
+/************************
+RECENT-GAMES
+*************************/
+
+#recent-games{
+padding-top: 40px;
+padding-bottom: 70px;
+background-color: #fafafa;
+}
+.section-title h4{
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 30px;
+font-family: csgo;
+letter-spacing: 2px;
+/*color: #fff;*/
+margin-bottom: 50px;
+}
+.card{
+box-shadow: 0 2px 0 0 rgba(0,0,0,.05);
+}
+.card-img-lg, .img-lg {
+height: 18.75rem;
+}
+.card-img{
+width: auto;
+height: 280px;
+margin: 10px 10px 0;
+overflow: hidden;
+position: relative;
+display: block;
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+border-radius: 0;
+}
+.card-img img{
+-o-object-fit: cover;
+object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+}
+.card-title{
+font-family: csgo;
+text-transform: uppercase;
+font-size: 24px;
+letter-spacing: 3px;
+/*color: #fff;
+opacity: 0.9;*/
+}
+.card-text{
+font-family: robo;
+font-size: 15px;
+/*color: #fff;
+opacity: 0.9;*/
+}
+.card-ftr{
+display: flex;
+border-top:1px solid black;
+border-color: #ccc;
+padding-top: 10px;
+}
+.submit-date{
+/*color: #fff;
+opacity: 0.9;*/
+font-family: robo;
+font-size: 16px;
+font-weight: normal;
+}
+.likes-comments{
+/*color: #fff;
+opacity: 0.9;*/
+font-family: robo;
+font-size: 15.3px;
+font-weight: normal;
+}
+.paralax-view{
+padding-top: 70px;
+padding-bottom: 70px;
+}
+.paralax{
+background-image: url("../img/overlay.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+opacity: .8;
+}
+.easypiechart {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 110px;
+height: 110px;
+line-height: 110px;
+}
+.easypiechart-text {
+display: block;
+font-size: 22px;
+font-weight: 500;
+color: 
+#fff;
+}
+.easypiechart canvas {
+position: absolute;
+top: 0;
+left: 0;
+}
+.games-category .section-title{
+color: #fff;
+}
+.games-category{
+background-color: #181c23;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+.gaming-platform{
+text-align: center;
+background-color: #292e38;
+padding:30px;
+border-radius: 10px;
+}
+.gaming-platform h3{
+color: #fff;
+font-family: csgo;
+font-size: 40px;
+margin: 0;
+}
+.gaming-platform p{
+color: #c61c39;
+font-family: csgo;
+font-weight: 600;
+font-size: 30px;
+margin: 0;
+}
+.author{
+background-color: #2575dc;
+padding-top: 10px;
+padding-bottom: 5px;
+font-family: csgo;
+font-size: 24px;
+color: #fff;
+}
+#footer{
+background-color: #2a2b2d;
+padding-top: 50px;
+padding-bottom: 40px;
+}
+.footer-title{
+margin-bottom: 20px;
+font-size: .875rem;
+font-weight: 500;
+color:#fff;
+text-transform: uppercase;
+font-family: robo;
+}
+.footer-detail{
+font-size: 16px;
+font-weight: 500;
+color: rgba(255,255,255,.45);
+
+}
+.custom-btn {
+color: rgba(255,255,255,.45);
+font-weight: 400;
+background-color:transparent;
+border-color: rgba(255,255,255,.2);
+text-transform: capitalize;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.custom-btn:hover{
+background-color:rgba(255,255,255,.03) !important;
+border-color: rgba(255,255,255,.2) !important;
+color: #fff;
+}
+.footer-tags a{
+display: inline-block;
+padding: 5px 10px;
+margin: 0 2px 8px 0;
+font-size: .9375rem;
+border: 1px solid rgba(255,255,255,.1);
+border-radius: 3px;
+color: rgba(255,255,255,.45);
+text-decoration: none;
+text-transform: capitalize;
+}
+.footer-tags a:hover{
+text-decoration: none;
+background-color:rgba(255,255,255,.02);
+color: #fff;
+}
+.contact-tags a{
+color: rgba(255,255,255,.45);
+display: inline-block;
+}
+.contact-tags a:hover{
+color: #fff;
+}
+.info {
+color: rgba(255,255,255,.45);
+font-size: 16px;
+cursor: pointer;
+transition: 2s;
+}
+.info p:hover{
+color: #fff;
+}
+
+
+/************************
+DETAIL-CONTENT
+*************************/
+.detail-content{
+padding-top: 70px;
+padding-bottom:70px;
+}
+.dt-img{
+position: relative;
+overflow: hidden;
+background-color: #1f1f1f;
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+}
+
+.background{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+/*opacity: .2;*/
+opacity: .4;
+}
+
+.g-title{
+font-family: csgo;
+font-size: 2.25rem;
+font-weight: 700;
+}
+.g-intro{
+color: rgba(255,255,255,.7) !important;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+}
+.btn-rounded{
+
+padding: 10px 27px;
+}
+.btn-shadow{
+box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+.btn-bg-color{
+color: #fff;
+background-color: #2575dc;
+border-color: #2575dc;
+}
+.fnt-size{
+font-size: 18px !important;
+font-weight: 400;
+font-family: gafta;
+}
+
+.dp-down{
+	display: inline-block !important; 
+}
+.cst-bg-white{
+	background-color: #fff !important;
+	color: #67646b !important;
+	border:1px solid #d0d0d0  !important;
+}
+.post{
+	padding-bottom: 35px;
+margin-bottom: 40px;
+border-bottom: 1px dashed rgba(0,0,0,.12);
+}
+
+.post-thumbnail{
+	margin-bottom: 20px;
+}
+.post-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #505050;
+	font-size: 20px;
+}
+.post-metas{
+margin-bottom: 20px;
+color: #717275;
+}
+.post-metas ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.post-metas ul li {
+	display: inline-block;
+}
+.post-info{
+	font-family: 'Roboto', sans-serif;
+	color: #59595f;
+}
+.widget {
+    margin-bottom: 45px;
+}
+
+.widget-game{
+	position: relative;
+color: rgba(255,255,255,.7);
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+}
+
+
+.widget-game img{
+	position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+/*opacity: .1;*/
+opacity: .3;
+}
+
+.widget-body{
+	position: relative;
+z-index: 2;
+padding: 25px;
+}
+
+
+.widget-title{
+	margin-bottom: 0;
+font-weight: 700;
+text-transform: capitalize;
+font-family: csgo;
+}
+.game-date{
+	color: rgba(255,255,255,.7);
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.game-info{
+	font-weight: 700;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+}
+.game-detail{
+	text-decoration: none;
+	color: rgba(255,255,255,.7) !important;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+transition: .4s;
+}
+.game-detail:hover{
+	color:#fff !important;
+}
+.game-summary{
+	color: rgba(255,255,255,.7) !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.dp-items{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+
+.widget-game h6{
+	color: #fff;
+}
+.widget-header{
+	padding: 5px 10px;
+margin-bottom: 20px;
+font-size: .875rem;
+font-weight: 700;
+text-transform: uppercase;
+border-left: 3px solid #2575dc;
+color: #59595f;
+}
+
+.img-cover{
+	position: relative;
+display: block;
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+border-radius: 0;
+}
+.img-cover img{
+	-o-object-fit: cover;
+object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+}
+.img-md{
+	height: 15.625rem;
+}
+
+.aside-widget-body{
+	margin-bottom: 45px;
+
+}
+
+.aside-widget-title{
+
+	font-family: 'Roboto', sans-serif;
+	color: #59595f;
+	font-weight: 500;
+
+}
+.aside-post-meta{
+	color: #717275;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+.aside-list-header{
+	font-size: .875rem;
+font-weight: 700;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: #59595f;
+
+}
+.aside-list-metas{
+
+font-weight: 700;
+font-size: .9375rem;
+font-family: 'Roboto', sans-serif;
+color: #59595f;
+}
+
+.row-xs{
+	margin: 0 -.1875rem;
+}
+
+.aside-widget-img{
+	position: relative;
+display: block;
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+border-radius: 0;
+height: 150px;
+margin-bottom: 6px;
+}
+
+.aside-widget-img img{
+	-o-object-fit: cover;
+object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+}
+
+.aside-media{
+	padding: 12px 0;
+border-bottom: 1px dashed rgba(0,0,0,.08);
+display: flex;
+align-items: flex-start;
+}
+
+
+.aside-img-cover{
+	position: relative;
+display: block;
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+border-radius: 0;
+}
+.aside-img-md {
+    width: 150px !important;
+    height: 100px !important;
+    margin-right: 10px;
+}
+.aside-img-md img {
+	object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+}
+.aside-media.img-cover img{
+	object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+}
+.aside-media-text{
+	flex: 1;
+}
+.aside-media-text h6{
+	color: #505050;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+
+}
+.aside-media-meta{
+	color: #717275;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+
+}

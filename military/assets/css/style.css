@@ -1,0 +1,720 @@
+
+@import url('https://fonts.googleapis.com/css?family=Andada|B612|Cambay|Pompiere|Poppins|Port+Lligat+Slab|Share|Share+Tech+Mono|Wallpoet&display=swap');
+
+@font-face {
+font-family: 'csgo';
+src: url('../fonts/cs_regular.ttf');
+}
+
+
+/*
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Cambay', sans-serif;
+
+font-family: 'Share', cursive;
+
+font-family: 'Share Tech Mono', monospace;
+
+font-family: 'Andada', serif;
+
+font-family: 'Wallpoet', cursive;
+
+font-family: 'Pompiere', cursive;
+
+font-family: 'Port Lligat Slab', serif;
+
+font-family: 'B612', sans-serif;
+
+*/
+.navbar-brand{
+font-family: 'Wallpoet', cursive;
+font-size: 40px;
+color: #fff !important;
+text-transform: uppercase;
+}
+.nav-link{
+font-family: 'Wallpoet', cursive;
+text-transform: uppercase;
+font-size: 16px;
+color: #fff !important;
+
+}
+.navbar-nav > li{
+margin-left:8px;
+margin-right:8px;
+}
+
+.bg{
+	transition:0.7s ease;
+}
+.bg.scrolled{
+background-color: rgba(41, 43, 47, 0.84) !important;
+}
+.navbar-toggler{
+	background-color: #626262 !important
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crsl-img{
+/*height: 700px;*/
+width: 100%;
+background-color: 
+}
+
+
+.crsl-img::after{
+
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background: -webkit-gradient(linear, left bottom, left top, from(#222), to(transparent));
+background: linear-gradient(to top, #000 0%, transparent 100%);
+opacity: 0.5;
+-webkit-transition: 0.2s opacity;
+transition: 0.2s opacity;
+}
+
+
+.carousel-caption{
+top: 47% !important;
+}
+.carousel-caption h1{
+font-size: 40px;
+font-family: 'B612', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: -2px;
+}
+.carousel-caption p {
+font-size: 35px;
+text-transform: uppercase;
+font-family: 'Wallpoet', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+width: 42px !important;
+height: 82px !important;
+
+}
+
+.cores{
+padding: 50px 0 0;
+background: #181818 url(../img/pattern.png) repeat;
+}
+
+.department h3{
+
+font-family: 'Wallpoet', cursive;
+color: #fff;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.department p {
+color: #fff;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+
+}
+
+.core-infos{
+margin-top: 30px;
+}
+
+
+.operators-title h2{
+font-family: csgo;
+font-size: 40px;
+color: #fff;
+text-align: center;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.banner-box{
+margin-bottom: 50px;
+}
+
+.banner-box > div{
+background-color: #272727;
+}
+.banner-box figure {
+
+}
+.caption{
+position: relative;
+padding: 0px 10px 2px;
+}
+
+
+.title-1{
+
+font-size: 24px;
+font-family: 'Wallpoet', cursive;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 12px;
+text-align: center;
+}
+
+.title-info{
+color: #9b9c9d;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+text-align: left;
+}
+
+.subscribe{
+padding-top: 30px;
+padding-bottom: 30px;
+background-image: url("../img/bg-green.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.articles h2{
+font-size: 46px;
+font-family: csgo;
+text-transform: capitalize;
+color: #fff;
+/*float: left;*/
+margin-right: 30px;
+margin-bottom: 0;
+font-weight: 800;
+}
+
+
+.articles p {
+font: 300 16px ;
+font-family: 'Poppins', sans-serif;
+color: #fff;
+/*float: left;*/
+/*margin-right: 10px;
+margin-top: 10px;*/
+margin-bottom: 0;
+}
+
+
+#newsletter{
+position: relative;
+margin: 13px 0 0;
+/*float: right;*/
+}
+
+#newsletter label {
+position: relative;
+/*float: left;*/
+margin-right: 26px;
+}
+
+
+#newsletter input {
+background: 0 0;
+box-shadow: none;
+border: 1px solid #fff;
+border-radius: 5px;
+
+line-height: normal;
+line-height: 18px;
+color: #fff !important;
+background: rgba(255,255,255,.1);
+height: 37px;
+/*width: 391px;*/
+padding: 8px 11px 9px;
+margin: 0;
+-webkit-transition: all .4s ease-out;
+transition: all .4s ease-out;
+}
+.form-control::placeholder {
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.btn3{
+	box-shadow: none !important;
+position: relative !important;
+text-decoration: none !important;
+padding: 5px 0 !important;
+width: 173px !important;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0 !important;
+text-align: center;
+text-shadow: none;
+color: #fff;
+border: none;
+background: url(../img/more_pattern2.png) repeat;
+border-radius: 2px;
+border: 2px solid #fff;
+display: inline-block !important;
+-webkit-transition: all .25s ease;
+transition: all .25s ease;
+}
+.btn3:hover{
+	color: #555;
+	background-color: #fff;
+}
+
+
+
+.author{
+padding: 20px 0 0;
+background: #181818 url(../img/pattern.png) repeat;
+}
+
+
+.credits h1{
+font-family: 'Wallpoet', cursive;
+font-size: 40px;
+color: #fff !important;
+text-transform: uppercase;
+}
+
+.cr-creator{
+	font-family: csgo;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.cr-email{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+
+}
+
+
+/*LIFE*/
+
+
+
+.bg-camo{
+
+background-image: url("../img/bg-green.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.soldier-life{
+padding-top: 125px;
+background: #181818 url(../img/pattern.png) repeat;
+}
+.soldier-box{
+	margin-bottom: 45px;
+}
+
+.life-title{
+	font-family: csgo;
+	color: #fff;
+}
+.thumb-pad4 .thumbnail{
+	margin: 0;
+border-radius: 0;
+box-shadow: none;
+border: none;
+padding: 0;
+background: none;
+}
+.life-caption h5{
+font-family: 'Poppins', sans-serif;
+color: #fff;
+font-size: 16px;
+font-weight: 300;
+}
+.life-caption p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+font-weight: 300;
+line-height: 18px;
+color: #9b9c9d;
+}
+.btn1{
+	box-shadow: none;
+position: relative;
+text-decoration: none !important;
+padding: 4px 12px;
+font-family: csgo;
+font-size: 22px;
+margin: 0;
+  margin-top: 0px;
+text-shadow: none;
+color: #272727;
+border: none;
+background: #cd8626;
+border-radius: 0;
+display: inline-block;
+-webkit-transition: all .25s ease;
+transition: all .25s ease;
+}
+.btn1:hover{
+	background-color: #fff;
+	color: #555;
+
+}
+.list6{
+	margin: 0;
+    margin-top: 0px;
+padding: 0;
+margin-top: -6px;
+list-style: none;
+}
+.list6 li {
+    font-size: 13px;
+    line-height: 1.428571429;
+    margin-bottom: 19px;
+}
+
+.list6 li .badge {
+    padding: 0;
+        padding-top: 0px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: #cd8626;
+    width: 36px;
+    height: 37px;
+font-family: 'Wallpoet', cursive;
+font-size: 18px;
+    color: #272727;
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 9px;
+    float: left;
+    margin-right: 17px;
+}
+.extra-wrap{
+	overflow: hidden;
+}
+.extra-wrap h5{
+color: #fff;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+	
+    font-weight: normal;
+font-weight: 300 !important;
+margin: 6px 0 15px;
+}
+.extra-wrap p{
+	margin-bottom: 12px;
+font-weight: 300;
+line-height: 18px;
+font-size: 13px;
+color: #9b9c9d;
+font-family: 'Poppins', sans-serif;
+}
+.carrer h5{
+	color: #fff;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+font-weight: 300 !important;
+margin: 0 0 15px;
+}
+
+.carrer p {
+	margin-bottom: 9px;
+font-weight: 300;
+line-height: 18px;
+font-size: 13px;
+color: #9b9c9d;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.carrer-list{
+margin: 0;
+    margin-bottom: 0px;
+padding: 0;
+    padding-top: 0px;
+list-style: none;
+overflow: hidden;
+padding-top: 17px;
+margin-bottom: 0px;
+}
+
+.carrer-list li {
+    font-size: 13px;
+    line-height: 1.428571429;
+    overflow: hidden;
+    margin-bottom: 12px;
+    padding-left: 22px;
+    background: url(../img/list_arrow.png) left 5px no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: #9b9c9d;
+}
+
+.crp{
+	margin-bottom: 12px;
+font-weight: 300;
+line-height: 18px;
+font-size: 13px;
+color: #9b9c9d;
+font-family: 'Poppins', sans-serif;
+line-height: 18px;
+}
+
+.commander-title h3{
+font-family: csgo;
+font-size: 40px;
+color: #fff;
+text-align: center;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+
+/*Services*/
+
+
+.main-content{
+	padding-top: 125px;
+	background: #181818 url(../img/pattern.png) repeat;
+}
+
+.wraped-text h3{
+	font-family: csgo;
+color: #fff;
+}
+.wraped-text h5{
+	color: #fff;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+font-weight: 300 !important;
+margin: 0 0 15px;
+}
+.wraped-text p {
+		color: #9b9c9d;
+font-size: 13px;
+font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+font-weight: 300 !important;
+margin: 0 0 15px;
+}
+
+.branch hr{
+	width: 100%;
+	margin: 29px 0 56px;
+border: none;
+height: 2px;
+width: 100%;
+background: url(../img/border.png) repeat-x;
+}
+
+.branches h3 {
+	font-family: csgo;
+color: #fff;
+}
+
+.branches-list{
+	margin: 0;
+    margin-bottom: 0px;
+padding: 0;
+    padding-top: 0px;
+list-style: none;
+overflow: hidden;
+padding-top: 17px;
+margin-bottom: 0px;
+}
+.branches-list li {
+    font-size: 16px;
+    line-height: 1.428571429;
+    overflow: hidden;
+    margin-bottom: 12px;
+    padding-left: 22px;
+    background: url(../img/list_arrow.png) left 5px no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.branches-list p {
+	font-size: 13px;
+	 font-family: 'Poppins', sans-serif;
+    color: #9b9c9d;
+}
+
+.service h3 {
+		font-family: csgo;
+color: #fff;
+}
+.service-list{
+	margin: 0;
+    margin-bottom: 0px;
+padding: 0;
+    padding-top: 0px;
+list-style: none;
+overflow: hidden;
+padding-top: 17px;
+margin-bottom: 0px;
+}
+.service-list li {
+	 font-size: 13px;
+    line-height: 1.428571429;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    background: url(../img/list_arrow.png) left 5px no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: #9b9c9d;
+    transition: .4s ease;
+}
+.service-list li:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.section-border hr{
+	
+margin: 0;
+border: none;
+height: 2px;
+width: 100%;
+background: url(../img/border.png) repeat-x;
+}
+
+
+/*Gallery*/
+
+.main-gallery{
+    padding-top: 125px;
+    background: #181818 url(../img/pattern.png) repeat;
+}
+
+.gallery-title h3{
+    font-family: csgo;
+    color: #fff;
+    font-size: 35px;
+}
+
+.gal-title-1{
+    font-size: 15px;
+font-family: 'Wallpoet', cursive;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 12px;
+text-align: center;
+}
+.gal-title-info{
+    color: #9b9c9d;
+font-family: 'Poppins', sans-serif;
+font-size: 12px;
+text-align: left;
+}
+
+
+
+/*Contact-us*/
+
+.main-contact{
+      padding-top: 125px;
+    background: #181818 url(../img/pattern.png) repeat;
+}
+.contact-title h3{
+    font-family: csgo;
+    color: #fff;
+    font-size: 35px;
+
+}
+.c-title h3{
+    font-family: csgo;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: -4px;
+}
+.info{
+    margin-bottom: 19px;
+padding-top: 11px;
+}
+
+.info h5{
+    color: #fff;
+  font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+font-weight: 300 !important;
+margin: 0 0 5px;
+}
+
+.info p {
+    margin-bottom: 0;
+}
+.info p > span {
+    width: 142px;
+    display: inline-block;
+     font-size: 13px;
+    color: #9b9c9d;
+    font-family: 'Poppins', sans-serif;
+}
+.info p{
+       font-size: 13px;
+    color: #9b9c9d;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.cont-form input[type="text"]{
+    box-shadow: none;
+border-radius: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+outline: none;
+border: 1px solid #272727;
+background: #272727;
+font: 13px open sans,helvetica neue,Helvetica,Arial,sans-serif;
+color: #9b9c9d;
+padding: 10px 15px;
+
+}
+
+.area{
+ box-shadow: none;
+border-radius: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+outline: none;
+border: 1px solid #272727;
+background: #272727;
+font: 13px open sans,helvetica neue,Helvetica,Arial,sans-serif;
+color: #9b9c9d;
+
+}
+

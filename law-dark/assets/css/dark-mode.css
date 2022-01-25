@@ -1,0 +1,15 @@
+#242526 light-grey
+#18191a dark-grey
+
+
+
+.darkmode-bg{
+	background-color:#18191a !important;
+}
+
+.darkmode-content{
+
+	background-color:#242526 !important;
+	color: #fff;
+	border-radius: 10px;
+}	

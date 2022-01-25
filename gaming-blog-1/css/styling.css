@@ -1,0 +1,1308 @@
+/*---------------------------*/
+/* TYPOGRAPHY
+/*---------------------------*/
+@font-face {
+font-family: 'csgo';
+src: url('../fonts/cs_regular.ttf');
+}
+
+@font-face {
+font-family: 'gta';
+src: url('../fonts/RobotoSlab-Bold.ttf');
+}
+
+@font-face {
+font-family: 'gta-light';
+src: url('../fonts/RobotoSlab-Light.ttf');
+}
+
+@font-face {
+font-family: 'gaft';
+src: url('../fonts/Gafata-Regular.ttf');
+}
+
+
+html,
+body {
+height: 100%;
+font-family: 'csgo';
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+font-weight: 500;
+color: #131313;
+}
+
+h1 {
+font-size: 70px;
+}
+
+h2 {
+font-size: 36px;
+}
+
+h3 {
+font-size: 30px;
+}
+
+h4 {
+font-size: 24px;
+}
+
+h5 {
+font-size: 20px;
+}
+
+h6 {
+font-size: 16px;
+}
+
+p {
+font-size: 14px;
+}
+
+img {
+max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+outline: none;
+}
+
+a:hover,
+a:focus {
+text-decoration: none;
+outline: none;
+}
+
+ul,
+ol {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+
+
+/*---------------------------*/
+/* 		 HELPER-CSS
+/*---------------------------*/
+.panel-box-shadow {   
+box-shadow: 9px 7px 9px -3px  rgba(0,0,0,0.22) !important;
+}
+.pad-left{
+padding-left: 0px !important;
+}
+.pad-right{
+padding-right: 0px !important;
+}
+.pd-tp{
+padding-top: 20px;
+}
+.pd-bm{
+padding-bottom: 20px;
+}
+.pos-relative{
+position: relative;
+}
+.set-bg {
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: top center !important;
+}
+.pad-top-bottom{
+padding-top: 20px;
+padding-bottom: 40px
+}
+.spad{
+padding-top: 90px;
+padding-bottom:90px;
+}
+.brd-left{
+border-left: 1px solid #e2e2e2;
+}
+.brd-right{
+border-right: 1px solid #e2e2e2;
+}
+.spacer{
+padding-top: 20px;
+}
+
+
+
+/*---------------------------*/
+/* 		 TOP-HEADER
+/*---------------------------*/
+.top-view{
+padding-top: 10px;
+padding-bottom:10px;
+background: #fff;
+}
+.top-view-slogan h4{
+font-family: 'csgo';
+color: #333;
+text-transform: uppercase;
+margin-bottom: 15px;
+/*border-left: 5px solid #66cc33;*/
+padding-left: 5px;
+font-size: 28px;
+}
+.top-view-slogan .fix-word{
+color: #66cc33;
+}
+.header-socials{
+text-align: right;
+padding: 10px 0 0;
+line-height: 20px;
+width: 310px;
+float: right;
+}
+.header-socials .social-title{
+display: inline-block;
+color:
+#8c8c8c;
+font-size: 13px;
+vertical-align: top;
+margin-right: 10px;
+}
+.header-socials .social-icons a{
+display: inline-block;
+width: 18px;
+height: 18px;
+overflow: hidden;
+color:#999999;
+margin: 0 2px;
+}
+.header-socials .social-icons a:hover{
+color: #66cc33;
+}
+
+
+
+/*---------------------------*/
+/*        NAV-BAR
+/*---------------------------*/
+
+.nav-bg{
+/*background: #131313;*/
+background: #3a3939;
+}
+.navbar a{
+font-family: 'csgo';
+font-size: 20px;
+}
+.navbar-toggler-icon{
+color: #fff;
+}
+
+
+
+
+/*---------------------------*/
+/* 	    HERO-SECTION
+/*---------------------------*/
+
+.main-landing-view{
+height: 499px;
+position: relative;
+
+}
+.text-overlay{
+position: absolute;
+width: 100%;
+bottom: 65px;
+left: 0;
+z-index: 2;
+}
+.text-overlay h1{
+font-family: 'csgo';
+color: #ffb320;
+}
+.text-overlay .csgo-icon{
+color:#fff;
+}
+.text-overlay .intro-desc {
+color: #fff;
+font-weight: 600;
+}
+
+
+
+/*---------------------------*/
+/* 		 PLATFORMS
+/*---------------------------*/
+
+.border-lft{
+border-left: 1px solid #e5e5e5;
+}
+.platform-img{
+width: 100px;
+height: 100px;
+float: left;
+margin-right: 30px;
+}
+.platform-aside h4 {
+font-family: 'csgo';
+letter-spacing: 2px;
+font-size: 28px; 
+}
+.platform-aside p {
+font-family: 'gta-light';
+font-size: 13px;
+color: #666666;
+}
+.platform-aside .vw-game {
+border-color: #7a7a7a;
+background:#858585;
+color: #fff;
+padding: 4px 10px;
+font-size: 12px;
+line-height: 1.5;
+border-radius: 3px;
+}
+
+
+
+/*---------------------------*/
+/* 	 GAMES-POST-SECTIONS
+/*---------------------------*/
+.bg-clr{
+background-color: #ededed;
+/*background-color: #c8c8c8;*/
+}
+.img-caption{
+position: relative;
+}
+.img-caption .cata{
+position: absolute;
+top: 5px;
+left: 5px;
+border-radius: 2px; 
+padding: 2px 25px;
+font-weight: 800;
+color: #fff;
+text-transform: uppercase;
+}
+.cata.standard{
+background: #ffb320;
+}
+.cata.strategy {
+background: #4eae60;
+}
+.cata.racing {
+background: #694eae;
+}
+.cata.adventure {
+background: #40abf5;
+}
+.card{
+height: auto;
+border: 0px !important;
+}
+.card-title{
+font-family: 'csgo';
+text-transform: uppercase;
+font-weight: 400;
+letter-spacing: 1.4px;
+word-spacing: -1px;
+}
+.card-text{
+color: #878787;
+font-family: 'Roboto', sans-serif;
+}
+.comment {
+font-size: 12px;
+color: #737373;
+font-family: 'Roboto', sans-serif;
+}
+.rating{
+position: absolute;
+right: 0;
+bottom: 0;
+padding-bottom: 5px;
+}
+.share,.like{
+float: left;
+display: block;
+padding: 6px 8px 0;
+}
+.share{
+color: #737373;
+}
+.like{
+color:#ff205f;
+}
+
+
+
+/*---------------------------*/
+/* 	  GAMES-ASIDE-SECTION
+/*---------------------------*/
+
+.latest-post h2 {
+font-family: 'csgo';
+}
+.widget-item {
+margin-bottom: 30px;
+}
+.search-widget {
+position: relative;
+}
+.search-widget input {
+width: 100%;
+height: 41px;
+border: 1px solid #d6dee7;
+padding-left: 22px;
+padding-right: 45px;
+font-size: 12px;
+}
+.search-widget button {
+position: absolute;
+right: 0;
+top: 0;
+height: 100%;
+background: none;
+border: none;
+padding-right: 15px;
+color: #878787;
+cursor: pointer;
+}
+.image-parent {
+max-width: 120px;
+}
+.latest-cata{
+font-family: 'csgo';
+font-size: 25px;
+letter-spacing: 1px;
+}
+.review-item{
+background: #eff2f5;
+}
+.review-item .review-cover{
+height: 400px;
+position: relative;
+}
+.review-item .review-cover .score{
+position: absolute;
+width: 54px;
+height: 54px;
+top: -27px;
+left: 26px;
+padding-top: 15px;
+font-family: 'csgo';
+font-size: 20px;
+font-weight: 500;
+color: #fff;
+text-align: center;
+border-radius: 50%;
+z-index: 1;
+}
+.review-item .review-cover .score.yellow {
+background: #ffb320;
+}
+.review-item .review-cover .score.purple {
+background: #694eae;
+}
+.review-item .review-cover .score.pink {
+background: #ff20ae;
+}
+.review-item .review-cover .score.green {
+background: #4eae60;
+}
+.review-item .review-text {
+text-align: center;
+}
+.review-item .review-text h5 {
+margin-bottom: 10px;
+font-family: 'csgo';
+font-size: 30px;
+}
+.review-item .review-text p {
+margin-bottom: 0px;
+padding-bottom: 20px;
+font-weight: 600;
+}
+/*
+.review-item .rating {
+margin-bottom: 20px;
+}
+.review-item .rating i {
+font-size: 12px;
+}*/
+
+
+/*---------------------------*/
+/* 		DETAIL-PAGE
+/*---------------------------*/
+.detail-page-outer{
+background: #ededed;
+position: relative;
+}
+.detail-page-inner{
+background: #fff;
+padding-top: 30px;
+border: 1px solid #e2e2e2;
+border-radius: 5px;
+}
+.post-title{
+border-bottom: 1px solid #e2e2e2;
+padding-bottom: 15px; 
+}
+.post-title h3{
+font-family: 'gta';
+}
+.creditship .author a {
+color: #f25d3c;
+font-size: 14px;
+}
+.creditship .author a:hover{
+color: #66cc33;
+}
+.date{
+color: #f25d3c;
+font-size: 12px;
+}
+.cat-links a{
+color: #f25d3c;
+font-size: 14px;
+}
+.cat-links a:hover{
+color: #66cc33;
+}
+.social-like{
+border-bottom: 1px solid #e2e2e2;
+margin-bottom: 30px;
+}
+.social-like .thumbnail {
+width: 64px;
+height: 64px;
+display: inline-block;
+}
+.comment{
+color: #777;
+font-size: 15px;
+display: inline-block;
+margin-top: 10px;
+font-family: 'gta';
+}
+.comment .fnt-txt{
+font-family: 'gta';
+font-weight: 500;
+}
+.dt-post-thumb {
+width: 300px;
+position: relative;
+margin: 5px 25px 10px 0;
+display: inline-block;
+max-width: 100%;
+padding: 5px;
+}
+.content-entry h2{
+font-family: 'gta';
+}
+.content-entry p{
+font-size: 14px;
+font-family: 'gta-light';
+}
+.author-description{
+padding: 40px;
+background: #3d3f4b;
+color: #cccccc;
+font-size: 14px;
+}
+.author-description .author-image{
+margin: 0 30px 0 0;
+float: left;
+
+}
+.author-description .author-image img {
+border-radius: 50%;
+border: 7px solid 
+#fff;
+width: 130px;
+height: 130px;
+display: block;
+max-width: 100%;
+}
+.author-description .author-name {
+	font-family: 'gta';
+  font-size: 22px;
+  color: #fff;
+  margin-top: 10px;
+
+}
+.author-description .author-name span {
+  color: #66cc33;
+}
+.author-description p {
+  font-family: 'gaft';
+}
+
+
+
+/*---------------------------*/
+/*    GAMES-CATEGORY-PAGE
+/*---------------------------*/
+.gaming-landing-view{
+background-color: #403f3f;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.games-category-outer{
+background-color: #ededed;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.games-category-inner{
+background-color: #fff;
+border: 1px solid#e2e2e2;
+border-radius: 5px;
+padding: 0px;
+}
+.games-heading h2{
+font-family: 'gta';
+font-size: 24px !important;
+border-bottom: 1px solid #e2e2e2;
+padding-bottom: 15px;
+margin-top: 20px;
+}
+.games-heading .top-margin {
+margin-top: 60px;
+}
+.game-title{
+margin-top: 8px;
+}
+.game-title a{
+text-decoration: none;
+font-family: 'gta';
+color: #333333;
+font-size: 15px;
+}
+.game-title a:hover{
+text-decoration: none;
+color: #f25d3c;
+}
+.search-widget{
+/* padding-left: 20px;
+padding-right: 20px;*/
+}
+.search-item{
+border: 1px solid#e2e2e2;
+background:#fdfdfd;
+border-radius: 3px;
+height: 35px !important;
+color:#333333;
+font-family: 'gaft';
+font-size: 15.5px !important;
+padding-left: 12px !important;
+margin: 0;
+outline: none;
+width: 100%;
+}
+.search-item:hover{
+border-color: #66cc33 ;
+}
+.platform-heading h2{
+font-family: 'gta';
+font-size: 18px !important;
+border-bottom: 1px solid #e2e2e2;
+padding-bottom: 15px;
+margin-top: 20px;
+}
+.card{
+background-color: transparent !important;
+}
+.custom-header{
+background: none !important ;
+padding-left: 0px !important; 
+padding-bottom: 4px !important;
+}
+.icon-setting{
+margin-top: 10px;
+margin-right: 20px;
+display: block;
+width: 10px;
+height: 10px;
+position: absolute;
+right: 0;
+font-family: "Gafata", sans-serif;
+line-height: 10px !important;
+cursor: pointer;
+color: #333333;
+font-weight:200 !important;
+}
+.accordian-plaform{
+font-family: 'gta';
+font-size: 18px;
+color: #333333;
+text-decoration: none;
+}
+.custom-checkbox{
+position: relative;
+}
+.platfrom-types{
+position: absolute;
+left: 29px;
+top: -15%;
+font-size: 15px;
+margin-left: -6px;
+font-family: 'gaft';
+font-weight: normal;
+color: #666666;
+}
+.platform-amount{
+color: #66cc33;
+margin-left: 3px;
+}
+.main {
+display: block;
+position: relative;
+padding-left: 45px;
+margin-bottom: 5px;
+cursor: pointer;
+font-size: 20px !important;
+}
+h1{
+color:orange;
+}
+/* Hiding the initial checkbox */
+input[type=checkbox] {
+visibility: hidden;
+}
+/* Creating a custom checkbox
+based on demand */
+.w3docs {
+position: absolute;
+top: 0;
+left: 0;
+height: 15px;
+width: 15px;
+background-color: #fff;
+border: 1px solid #d5d2d2  !important;
+}
+/* Specify the background color to be
+shown when hovering over checkbox */
+/*.main:hover input ~ .w3docs {
+background-color: gray;
+}*/
+/* Specify the background color to be
+shown when checkbox is active */
+.main input:active ~ .w3docs {
+background-color: white;
+}
+/* Specify the background color to be
+shown when checkbox is checked */
+.main input:checked ~ .w3docs {
+background-color:#66cc33;
+}
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.w3docs:after {
+content: "";
+position: absolute;
+display: none;
+}
+/* Display checkmark when checked */
+.main input:checked ~ .w3docs:after {
+display: block;
+font-size: 15px;
+}
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.main .w3docs:after {
+left: 3px;
+bottom: 2px;
+width: 6px;
+height: 12px;
+border: solid #fff;
+border-width: 0 4px 4px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+/*Filter*/
+.filter{
+text-align: center;
+padding-bottom: 40px;
+}
+.btn-filter{
+color:#ffffff;
+background-color:#66cc33;
+border-color:#5cb82e;
+font-family: 'gaft';
+font-size: 14px !important; 
+text-transform: uppercase;
+}
+.btn-filter:hover{
+color:#ffffff;
+background-color:#56ab2b;
+border-color:#438722;
+}
+
+
+/*---------------------------*/
+/* 		 CONTACT-PAGE
+/*---------------------------*/
+.contact-outer{
+background-color: #ededed;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.contact-inner{
+background-color: #fff;
+border: 1px solid#e2e2e2;
+border-radius: 5px;
+padding: 0px;
+}
+
+.contact-landing-view{
+height: 500px;
+
+}
+.contact-meta{
+position: relative;
+}
+.contact-meta i {
+color: #66cc33;
+text-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+.contact-meta .meta-style{
+font-family: 'gta';
+font-size: 15px;
+}
+.meta-style{
+position: absolute;
+top: 13%;
+margin-left: 10px;
+}
+.form-control{
+font-size: 14px !important;
+}
+
+input[type="text"],input[type="email"],textarea{
+border: 1px solid #e2e2e2 !important;
+}
+
+
+
+
+
+input {
+font-family: "gaft", sans-serif;
+}
+::-webkit-input-placeholder {
+font-family: "gaft";
+}
+:-moz-placeholder {
+font-family: "gaft";
+}
+::-moz-placeholder {
+font-family: "gaft";
+
+}
+:-ms-input-placeholder {
+font-family: "gaft";
+}
+.contact-person{
+color:#333333;
+font-size: 16px;
+border-top: 1px solid#e2e2e2;
+padding: 20px 0;
+}
+.contact-person img {
+float: left;
+margin: 0 10px 0 0;
+width: 55px;
+height: 55px;
+max-width: 100%;
+}
+.contact-person strong{
+display: block;
+font-family: 'gta';
+font-size: 15px;
+}
+.contact-person em{
+display: block;
+color: #999999;
+font-family: 'gaft';
+}
+.contact-person span{
+display: block;
+color: #333333;
+font-size: 16px;
+font-family: 'gaft';
+}
+.contact-person a{
+color: #66cc33;
+font-family: 'gaft';
+}
+.contact-person a:hover{
+color: #f25d3c;
+font-family: 'gaft';
+}
+.contact-person-info{
+padding-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/* 			FOOTER
+/*---------------------------*/
+.footer{
+background: #0b0b0b;
+padding-top: 40px
+}
+.slogan h4{
+font-family: 'csgo';
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 15px;
+border-left: 5px solid #66cc33;
+padding-left: 5px;
+}
+.slogan .fix-word{
+color: #66cc33;
+}
+.descriptions p{
+color: #a4a4a4;
+}
+.articles h4{
+font-family: 'csgo';
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+.post-img{
+width: 62px;
+height:62px;
+}
+.post-text{
+color:#d7d7d7;
+font-family: 'gta';
+text-align: left;
+}
+.border-btm{
+border-bottom: 1px solid #333333;
+padding-bottom: 20px;
+}
+.social h4{
+font-family: 'csgo';
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+.social ul li {
+padding-bottom: 15px;
+border-bottom: 1px solid #333333;
+margin-bottom: 22px;
+}
+.social ul li .fnt-lft {
+color: #66cc33;
+font-size: 15px;
+}
+.social ul li .fnt-rgt {
+color: #fff;
+padding-left: 8px;
+font-size:22px;
+}
+.contact h4{
+font-family: 'csgo';
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+.contact .highlight{
+color: #66cc33;
+}
+.contact p {
+line-height: 26px;
+color: #a4a4a4;
+}
+.credits{
+background: #0e0e0e;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.owner h3 {
+text-align: center;
+text-transform: uppercase;
+font-family: 'csgo';
+color: #a4a4a4;
+}
+.owner-name{
+color: #66cc33;
+}
+
+
+
+
+
+/*---------------------------*/
+/*		 MEDIA-QUERIES
+/*---------------------------*/
+
+
+/* 	   LARGE-DEVICES
+============================*/
+
+@media (min-width: 1200px) {
+/*.descriptions p{
+font-size: 15px;
+}
+.owner h3{
+font-size: 28px;
+}
+.slogan h2{
+font-size: 20px;
+}
+.articles h4{
+font-size: 20px;
+}
+.social h4{
+font-size: 20px;
+}
+.contact h4{
+font-size: 20px;
+}
+.fnt-lft{
+font-size: 13px !important;
+}
+.fnt-rgt{
+font-size: 22px !important;
+}
+.post-text p{
+font-size: 13px !important;
+}
+*/
+}
+
+
+/* 	   MEDIUM-DEVICES
+============================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.slogan h4{
+font-size: 18px;
+}
+.descriptions p{
+font-size: 13px;
+}
+.articles h4{
+font-size: 18px;
+}
+.post-text p{
+font-size: 12px;
+}
+.social h4{
+font-size: 18px;
+}
+.contact h4{
+font-size: 18px;
+}
+.fnt-lft{
+font-size: 12px !important;
+}
+.fnt-rgt{
+font-size: 20px !important;
+}
+.owner h3{
+font-size: 20px;
+}
+}
+
+
+/* Kindle Fire HD 7" portrait only
+==================================*/
+@media only screen 
+and (min-device-width: 800px) 
+and (max-device-width: 1280px) 
+and (-webkit-min-device-pixel-ratio: 1.5)
+and (orientation: portrait)
+{
+.descriptions p{
+font-size: 13px;
+}
+.slogan h4{
+font-size: 15px;
+}
+.articles h4{
+font-size: 15px;
+}
+.social h4{
+font-size: 15px;
+}
+.contact h4{
+font-size: 15px;
+}
+.fnt-lft{
+font-size: 12px !important;
+}
+.fnt-rgt{
+font-size: 20px !important;
+}
+.post-img{
+width: 40px;
+height:40px;
+}
+.post-text p{
+font-size: 12px !important;
+}
+.contact p{
+font-size: 13px;
+}
+.owner h3{
+font-size: 20px;
+}
+}
+
+
+/* 		   SMALL-DEVICES
+==================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+.platform-img {
+width: 91px;
+height: 88px;
+float: left;
+margin-right: 50px;
+}
+.descriptions p{
+font-size: 13px;
+}
+.slogan h4{
+font-size: 15px;
+}
+.articles h4{
+font-size: 15px;
+}
+.social h4{
+font-size: 15px;
+}
+.contact h4{
+font-size: 15px;
+}
+.fnt-lft{
+font-size: 12px !important;
+}
+.fnt-rgt{
+font-size: 20px !important;
+}
+.post-img{
+width: 40px;
+height:40px;
+}
+.post-text p{
+font-size: 11px !important;
+}
+.contact p{
+font-size: 12px;
+}
+.owner h3{
+font-size: 20px;
+}
+.border-btm{
+padding-bottom: 2px;
+}
+.meta-style {
+top: 20%;
+}
+.contact-meta .meta-style {
+font-size: 11px;
+}
+.contact-person a {
+font-size: 11px;
+
+}
+
+
+
+
+
+}
+
+
+/*      EXTRA-SMALL-DEVICES
+==================================*/
+
+@media (max-width: 767px) {
+
+.top-view-slogan{	
+float: left;
+width: 100%;
+text-align: center;
+}
+.header-socials{
+text-align: center;
+float: none;
+margin: 0 auto;
+}
+.border-lft{
+border: none;
+}
+.slogan h4{
+font-size: 20px;
+}
+.articles h4{
+font-size: 20px;
+}
+.social h4{
+font-size: 20px;
+}
+.contact h4{
+font-size: 20px;
+}
+.fnt-lft{
+font-size: 12px !important;
+}
+.fnt-rgt{
+font-size: 20px !important;
+}
+.owner h3{
+font-size: 20px;
+}
+
+}
+
+
+/* EXTRA-SMALL-DEVICES-PORTRAIT-VIEW-(1)
+=======================================*/
+
+@media (max-width: 480px) {
+.slogan h2{
+font-size: 20px;
+}
+.articles h4{
+font-size: 20px;
+}
+.social h4{
+font-size: 20px;
+}
+.contact h4{
+font-size: 20px;
+}
+.fnt-lft{
+font-size: 13px !important;
+}
+.fnt-rgt{
+font-size: 20px !important;
+}
+.post-img{
+width: 50px;
+height:50px;
+}
+.post-text p{
+font-size: 12px;
+}
+.image-parent {
+max-width: 90px;
+}
+.review-item .review-cover{
+height: 250px;
+}
+.platform-img{
+width: 64px;
+}
+.platform-aside h4{
+font-size: 23px;
+}
+.owner h3{
+font-size: 20px;
+}
+}
+
+
+/* EXTRA-SMALL-DEVICES-PORTRAIT-VIEW-(2)
+=======================================*/
+
+@media (max-width: 320px) {
+.header-socials {
+margin: 0 auto ;
+}
+.owner h3{
+font-size: 15px;
+}
+}
+
+
+
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+transform: translateX(50%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+transform: translateX(-50%);
+}
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+transform: translateX(-33%);
+}
+}
+
+@media (max-width: 768px) {
+.carousel-inner .carousel-item>div {
+display: none;
+}
+
+.carousel-inner .carousel-item>div:first-child {
+display: block;
+}
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+transform: translateX(0);
+}
+.w-auto{
+width: auto !important;
+}
+.bg-custom-clr{
+background-color: #66cc33 !important;
+}
