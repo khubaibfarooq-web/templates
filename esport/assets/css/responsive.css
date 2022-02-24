@@ -1,0 +1,73 @@
+
+
+/*======
+*
+* 10. Responsive
+*
+======*/
+
+@media (max-width: 1415px) {}
+
+@media (max-width: 1310px) {}
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1160px) {}
+
+@media (max-width: 1050px) {}
+
+@media (max-width: 999px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 950px) {}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 450px) {}
+
+@media (max-width: 420px) {
+	.xs-flex-100 {
+		flex: 100%;
+		max-width: 100%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.xs-flex-container {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.team-news-img {
+		text-align: left;
+	}
+	.bottom-nav-bar {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	.over-view-team-meta {
+		justify-content: center !important;
+	}
+	.over-view-team-text p {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.team-news-meta-info {
+		margin-top: 15px;
+	}
+	.team-news-detail p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 320px) {}
+
