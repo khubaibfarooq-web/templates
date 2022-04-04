@@ -1,0 +1,59 @@
+
+/*====================
+	TYPOGRAPHY
+======================*/
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #F1F1F3;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+/*====================
+	NAV-BAR
+======================*/
+
+.nav-bg-pink{
+	background-color: #FF5A60;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.nav-link{
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 550;
+}
+
+/*====================
+	USER-CARD
+======================*/
+
+
+
+
+
+/*====================
+	ACTIVITY-BOX
+======================*/
+
+.activity-box{
+	background-color: #fff;
+	height: 60px;
+	padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 7px;
+padding-right: 7px;
+	display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.activity-box p {
+	font-size: 12px;
+	margin-bottom:0px;
+}
+.profile-update-img{
+	text-align: center;
+}
+#profile-update{
+	background-color: #fff;
+	padding: 20px;
+}

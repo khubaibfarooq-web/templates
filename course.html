@@ -12,6 +12,9 @@
 
 	<script>
 
+
+		//======================= FUNDAMENTALS-PART-1 ======================= //
+
 		//------------------- CODING CHALLENGE # 1 -------------------//
 
 		// let markWeight = 78;
@@ -64,7 +67,297 @@
 // 		console.log(`no one wins`);
 // 	}
 
+
+// const age = 23 ; 
+
+// age >= 18 ? console.log('i like to drink wine') : console.log('i like to drink water');
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+
+
+
+	//------------------- CODING CHALLENGE # 3 -------------------//
+
+
+	// let bill = 275;
+
+	// const tip = bill <= 300 && bill >=50 ? bill * 0.15 : bill * 0.2;
+	// console.log(tip);
+
+
+
+	//======================= FUNDAMENTALS-PART-2 ======================= //
 	
+
+
+	// function fruitProcessor(apple , mangos){
+	// 	console.log(apple,mangos);
+	// 	const juice = `This is jucie is made up of ${apple} apples and ${mangos} mangos`;
+	// 	return juice ;
+	// }
+
+	// fruitProcessor(5,1);
+
+	// const juiceMix = fruitProcessor(5,1);
+	// console.log(juiceMix);
+/*-------------------------------------------------------------------------------------------------*/
+
+	// Function Expression
+	// function getAge1(birthyear){
+	// 	const age = 2022 - birthyear;
+	// 	return age ;
+	// }
+	// const age1 = getAge1(1994);
+	// console.log(age1);
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+	// // Function Declaration
+	// const getAge2 = function(birthyear){
+	// 	const age = 2022 - birthyear;
+	// 	return age ;
+	// }
+	// const age2 = getAge2(1999);
+	// console.log(age2);
+
+/*-------------------------------------------------------------------------------------------------*/
+
+	// // Arrow Function
+	// const getAge3 = birthyear => 2022 - birthyear ;
+	// const age3 = getAge3(2018);
+	// console.log(age3)
+
+	// const yearsUntilRetirement = (firstName , birthYear) => {
+	// 	const age = 2022 - birthYear;
+	// 	const retireAge = 65 - age ;
+	// 	return `${firstName} retires in ${retireAge} years`;
+	// }
+
+	// const retireAge1 = yearsUntilRetirement('ahmed' , 1994);
+	// console.log(retireAge1);
+
+	// const retireAge2 = yearsUntilRetirement('farooq' , 1958);
+	// console.log(retireAge2);
+
+/*-------------------------------------------------------------------------------------------------*/
+
+	//CALLING FUNCTIONS INTO ANOTHER FUNCTIONS
+	// function fruitPieces(fruit){
+	// 	return fruit * 4 ;
+	// }	
+
+	// function fruitProcessor(apple , orange){
+	// 	const applePieces = fruitPieces(apple);
+	// 	const orangePieces = fruitPieces(orange);
+
+	// 	return `This juice is made up of [${applePieces}] apple pieces and [${orangePieces}] orange pieces`;
+	// }
+
+	// const jucie1 = fruitProcessor(2,3);
+	// console.log(jucie1);
+
+
+	// const juice2 = fruitProcessor(4,4);
+	// console.log(juice2);
+
+	/*-------------------------------------------------------------------------------------------------*/
+
+	//REVIEWING FUNCTIONS
+
+	// const calcAge = function(birthyear){
+	// 	return 2022 - birthyear;
+	// }
+
+	// const yearsUntilRetirement = function(birthyear , firstName){
+	// 	const age = calcAge(birthyear);
+	// 	const retireAge = 65 - age ;
+
+	// 	return `${firstName} retires in ${retireAge} years`;
+	// }
+
+	// const ahmedRetirement = yearsUntilRetirement(1994 , "ahmed");
+
+
+	// console.log(ahmedRetirement);
+
+
+
+	//------------------- CODING CHALLENGE # 1 -------------------//
+
+// const calcAverage = (a , b , c) => {
+// 	return a + b  + c / 3 ;
+// }
+
+// const scoreDolphins = calcAverage(44 ,23 ,71);
+// const scoreKoalas = calcAverage(65 , 54 , 49);
+
+// const checkWinner = (avgDolphins , avgKoalas) => {
+// 	if(avgDolphins >= 2 * avgKoalas){
+// 		console.log(`Dolphins team wins with ${avgDolphins} score`);
+// 	}else if(avgKoalas >=2 * avgDolphins){
+// 		console.log(`Koalas teams wins with ${avgKoalas}`);
+
+// 	}else{
+// 		console.log(`No team wins`);
+// 	}
+// }
+
+// checkWinner(scoreDolphins, scoreKoalas);
+
+// const friends = ['ali' , 'ahmed' , 'farooq' , 'butt'];
+// console.log(friends.length);
+// console.log(friends[friends.length-1]);
+
+// // Add the elements at the end of an array.
+// friends.push('maxpayne');
+
+// //Add the elements at the begining of an array.
+// friends.unshift('gta');
+// console.log(friends);
+
+// console.log(friends.length);
+
+// //Accessing the last element of an array.
+// console.log(friends[friends.length-1]);
+
+// //Removed the last element from an array.
+// friends.pop();
+// console.log(friends);
+
+// //Finding the index of element in an array.
+// const findIndex = friends.indexOf('butt');
+// const findIndexIncludes = friends.includes('farooq');
+// console.log(findIndex);
+// console.log(findIndexIncludes);
+
+
+// if(friends.includes('farooq')){
+// 	console.log('you have a friend called name farooq');
+// }
+
+
+	//------------------- CODING CHALLENGE # 2 -------------------//
+
+
+	// function calcTip(bill){
+	// 	return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
+	// }
+
+	// const bills = [125 , 555 , 44];
+
+	// const tip = [calcTip(bills[0]) , calcTip(bills[1]) ,calcTip(bills[2])];
+
+	// const total = [bills[0] + tip[0] , bills[1] + tip[1] , bills[2] + tip[2]];
+
+	// console.log(tip);
+
+	// console.log(total);
+
+ /*-------------------------------------------------------------------------------------------------*/
+
+ const khubaibInfo = {
+ 	firstName: 'khubaib',
+ 	lastName: 'farooq',
+ 	birthyear:1994,
+ 	city: 'rawalpindi',
+ 	friends: ['ahmed' , 'ali' , 'khalil'],
+ 	job:'frontend web developer',
+ 	hasDriverlicense:false,
+ 	// calcAge : function(){
+ 	// 	return 2022 - this.birthyear;
+ 	// }
+ 	calcAge:function(){
+ 		this.age = 2022 - this.birthyear;
+ 		return this.age;
+ 	},
+ 	getSummary : function(){
+ 		return `${this.firstName} is ${this.calcAge()} years old and  and he is ${this.job} and has ${this.hasDriverlicense ? 'a' : 'no'} driver license`;
+ 	}
+
+ }
+
+ khubaibInfo.country = "pakistan";
+ khubaibInfo['facebook'] = 'hectn';
+
+// const interestedIn = prompt('what do you want to know more about the khubaib ?');
+// if(khubaibInfo[interestedIn]){
+// 	console.log(khubaibInfo[interestedIn]);
+// }else{
+// 	console.log('sorry this value doesnt exist');
+// }
+
+const myAge = khubaibInfo.calcAge();
+console.log(myAge);
+
+const mySummary = khubaibInfo.getSummary();
+console.log(mySummary);
+
+
+	//------------------- CODING CHALLENGE # 3 -------------------//
+
+	const marks = {
+		fullName : 'mark',
+		weight:87,
+		height:1.69,
+		getBmi : function(){
+			return this.weight / (this.height * this.height);
+		},
+		getWholeSummary : function(){
+			return `${this.fullName} BMI is (${this.getBmi()})`; 
+		}
+	}
+
+	const jhon = {
+		fullName : 'jhon',
+		weight:92,
+		height:1.95,
+		getBmi : function(){
+			return this.weight / (this.height * this.height);
+		},
+		getWholeSummary: function(){
+			return `${this.fullName} BMI is (${this.getBmi()})`;
+		}
+	}
+
+	
+
+	 const marksBmi = marks.getBmi();
+	 const jhonBmi = jhon.getBmi();
+	 const marksSummary = marks.getWholeSummary();
+	 const jhonsSummary = jhon.getWholeSummary();
+
+
+	 if(marksBmi > jhonBmi){
+
+	 	console.log(`Marks Bmi(${marksBmi}) is greater then the Jhon Bmi (${jhonBmi})`);
+
+	 }else if(jhonBmi > marksBmi){
+
+	 	console.log(`Jhons Bmi (${jhonBmi}) is greater then the Marks Bmi (${marksBmi})`);
+
+	 }else{
+
+	 	console.log(`Jhons and Marks BMI are same.`)
+	 }
+
+
+	 console.log(marksSummary);
+	 console.log(jhonsSummary);
+
+
+	 const friends = ['ahmed' , 'ali' , 'farooq' , 'talha' , 'muneeb' , 'rahees' , 'faizan'];
+
+	 for(let i = 0 ; i < friends.length ; i ++){
+	 	console.log(friends[i]);
+	 }
+
+
+
+
+
+
+
 
 	</script>
 
