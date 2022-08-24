@@ -256,29 +256,29 @@
 
  /*-------------------------------------------------------------------------------------------------*/
 
- const khubaibInfo = {
- 	firstName: 'khubaib',
- 	lastName: 'farooq',
- 	birthyear:1994,
- 	city: 'rawalpindi',
- 	friends: ['ahmed' , 'ali' , 'khalil'],
- 	job:'frontend web developer',
- 	hasDriverlicense:false,
- 	// calcAge : function(){
- 	// 	return 2022 - this.birthyear;
- 	// }
- 	calcAge:function(){
- 		this.age = 2022 - this.birthyear;
- 		return this.age;
- 	},
- 	getSummary : function(){
- 		return `${this.firstName} is ${this.calcAge()} years old and  and he is ${this.job} and has ${this.hasDriverlicense ? 'a' : 'no'} driver license`;
- 	}
+ // const khubaibInfo = {
+ // 	firstName: 'khubaib',
+ // 	lastName: 'farooq',
+ // 	birthyear:1994,
+ // 	city: 'rawalpindi',
+ // 	friends: ['ahmed' , 'ali' , 'khalil'],
+ // 	job:'frontend web developer',
+ // 	hasDriverlicense:false,
+ // 	// calcAge : function(){
+ // 	// 	return 2022 - this.birthyear;
+ // 	// }
+ // 	calcAge:function(){
+ // 		this.age = 2022 - this.birthyear;
+ // 		return this.age;
+ // 	},
+ // 	getSummary : function(){
+ // 		return `${this.firstName} is ${this.calcAge()} years old and  and he is ${this.job} and has ${this.hasDriverlicense ? 'a' : 'no'} driver license`;
+ // 	}
 
- }
+ // }
 
- khubaibInfo.country = "pakistan";
- khubaibInfo['facebook'] = 'hectn';
+ // khubaibInfo.country = "pakistan";
+ // khubaibInfo['facebook'] = 'hectn';
 
 // const interestedIn = prompt('what do you want to know more about the khubaib ?');
 // if(khubaibInfo[interestedIn]){
@@ -287,74 +287,278 @@
 // 	console.log('sorry this value doesnt exist');
 // }
 
-const myAge = khubaibInfo.calcAge();
-console.log(myAge);
+// const myAge = khubaibInfo.calcAge();
+// console.log(myAge);
 
-const mySummary = khubaibInfo.getSummary();
-console.log(mySummary);
+// const mySummary = khubaibInfo.getSummary();
+// console.log(mySummary);
 
 
 	//------------------- CODING CHALLENGE # 3 -------------------//
 
-	const marks = {
-		fullName : 'mark',
-		weight:87,
-		height:1.69,
-		getBmi : function(){
-			return this.weight / (this.height * this.height);
-		},
-		getWholeSummary : function(){
-			return `${this.fullName} BMI is (${this.getBmi()})`; 
-		}
-	}
+	// const marks = {
+	// 	fullName : 'mark',
+	// 	weight:87,
+	// 	height:1.69,
+	// 	getBmi : function(){
+	// 		return this.weight / (this.height * this.height);
+	// 	},
+	// 	getWholeSummary : function(){
+	// 		return `${this.fullName} BMI is (${this.getBmi()})`; 
+	// 	}
+	// }
 
-	const jhon = {
-		fullName : 'jhon',
-		weight:92,
-		height:1.95,
-		getBmi : function(){
-			return this.weight / (this.height * this.height);
-		},
-		getWholeSummary: function(){
-			return `${this.fullName} BMI is (${this.getBmi()})`;
-		}
-	}
+	// const jhon = {
+	// 	fullName : 'jhon',
+	// 	weight:92,
+	// 	height:1.95,
+	// 	getBmi : function(){
+	// 		return this.weight / (this.height * this.height);
+	// 	},
+	// 	getWholeSummary: function(){
+	// 		return `${this.fullName} BMI is (${this.getBmi()})`;
+	// 	}
+	// }
 
 	
 
-	 const marksBmi = marks.getBmi();
-	 const jhonBmi = jhon.getBmi();
-	 const marksSummary = marks.getWholeSummary();
-	 const jhonsSummary = jhon.getWholeSummary();
+	//  const marksBmi = marks.getBmi();
+	//  const jhonBmi = jhon.getBmi();
+	//  const marksSummary = marks.getWholeSummary();
+	//  const jhonsSummary = jhon.getWholeSummary();
 
 
-	 if(marksBmi > jhonBmi){
+	//  if(marksBmi > jhonBmi){
 
-	 	console.log(`Marks Bmi(${marksBmi}) is greater then the Jhon Bmi (${jhonBmi})`);
+	//  	console.log(`Marks Bmi(${marksBmi}) is greater then the Jhon Bmi (${jhonBmi})`);
 
-	 }else if(jhonBmi > marksBmi){
+	//  }else if(jhonBmi > marksBmi){
 
-	 	console.log(`Jhons Bmi (${jhonBmi}) is greater then the Marks Bmi (${marksBmi})`);
+	//  	console.log(`Jhons Bmi (${jhonBmi}) is greater then the Marks Bmi (${marksBmi})`);
 
-	 }else{
+	//  }else{
 
-	 	console.log(`Jhons and Marks BMI are same.`)
-	 }
-
-
-	 console.log(marksSummary);
-	 console.log(jhonsSummary);
+	//  	console.log(`Jhons and Marks BMI are same.`)
+	//  }
 
 
-	 const friends = ['ahmed' , 'ali' , 'farooq' , 'talha' , 'muneeb' , 'rahees' , 'faizan'];
-
-	 for(let i = 0 ; i < friends.length ; i ++){
-	 	console.log(friends[i]);
-	 }
+	//  console.log(marksSummary);
+	//  console.log(jhonsSummary);
 
 
 
+// const bob = [
 
+// 'khubaib' ,
+// 'farooq',
+// 'ahmed',
+// 2022 - 1994 ,
+// ['ahmed' , 'khubaib' ,  'shafiq'],
+// false,
+// true 
+// ]
+
+// const types = [];
+
+
+// for ( i = 0 ; i < bob.length ; i ++){
+// 	console.log(bob[i])
+// 	types[i] = typeof bob[i]
+// 	console.log(types);
+// }
+
+
+
+// const birthYears = [1994 , 1997 , 2000 , 2002];
+// const ages = [] ; 
+
+// for(i = 0 ; i < birthYears.length ; i++){
+// ages.push(2022 - birthYears[i]);
+// ages.reverse();
+
+// }
+// console.log(ages)
+
+
+
+// for(i = 0 ; i < bob.length ; i ++) {
+// 	if(typeof bob[i] !== "string")continue;
+// 	console.log(bob[i] , typeof bob[i])
+// }
+
+// for(i = 0 ; i < bob.length ; i ++){
+// 	if(typeof bob[i] === "number") break;
+// 	console.log(bob[i] , typeof bob[i]);
+// }
+
+
+// const looping = [
+
+// 'khubaib',
+// 'farooq',
+// 1453,
+// ['ahmed' , 'butt' , 'raja']
+// ]
+// for(i = 0 ; i < looping.length ; i++){
+// 	console.log(looping[i]);
+// }
+// console.log(`-------------------------`)
+
+// for( i = looping.length - 1 ; i >=0 ; i -- ){
+// 	console.log(looping[i])
+// }
+
+
+
+// for(set = 1 ; set < 4 ; set++){
+// 	console.log(`exercise set # ${set}`);
+
+// 	for(reps = 1 ; reps < 6 ; reps ++){
+// 		console.log(`exercise ${set} : rep --- ${reps}`)
+// 	}
+// }
+
+
+// let rep = 1 ; 
+
+// while(rep <=10 ){
+// 	console.log(`exercise reps ${rep}`);
+// 	rep ++ ;
+// }
+
+
+// let dice = Math.trunc(Math.random()* 6) + 1 ;
+//  console.log(dice);
+
+// while(dice !== 6){
+// 	console.log(`you rolled a  dice ${dice}`);
+// 	dice = Math.trunc(Math.random()* 6) + 1 ;
+// 	if(dice === 6) console.log(`roll is about to end ${dice}`);
+// }
+
+
+	//------------------- CODING CHALLENGE # 4 -------------------//
+
+	const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86 ,52];
+	let tips = [];
+	let totals =[];
+
+ function calcTip(bill){
+	 	return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
+ }
+
+
+function calcAverage(arr){
+	let sum = 0 ;
+	for(let i = 0 ; i < arr.length ; i++){
+		// sum = sum + arr[i];
+		sum+=arr[i];
+	}
+	return sum / arr.length ;
+}
+
+
+
+ for(i = 0; i < bills.length ; i++){
+ 	let tipRes = calcTip(bills[i]);
+ 	tips.push(tipRes);
+ 	totals.push(tips[i] + bills[i]);
+ 	
+ }
+
+
+
+
+// console.log(`TOTAL TIP CALCULATED IS : ${tips}`);
+// console.log(`TOTAL BIL CALCULATED IS : ${totals}`);
+// console.log(`TOTAL BILL AVERAGE IS : ${calcAverage(totals)}` );
+// console.log(`TOTAL TIP AVERAGE IS : ${calcAverage(tips)}` );
+// 	
+// newAr.push(names[i].split('').reverse().join(''));
+
+
+// const names  = ['ahmed' , 'ali' , 'akbar'];
+// const newArr =[];
+
+
+// for(let i =names.length-1 ;  i >= 0 ;  i--){
+// 	console.log(names[i]);
+// 	newArr.push(names[i]);
+// }
+// console.log(newArr);
+
+
+
+
+// const names = ['ahmed' , 'ali' , 'akbar'];
+// const newAr = [];
+
+// for(let i = 0 ; i < names.length ; i++){
+	
+// 	names[i].length-1;
+
+// }
+
+
+
+// const str = ['khubaib'];
+// const newStr =[];
+
+
+
+// for(let i = str.length-1 ; i>=0 ; i-- ){
+	
+
+// }
+// console.log(newStr)
+
+
+// Find min and max in the array.
+// const calcAmpTemp =function(temps){
+// 	let max = temps[0];
+// 	let min = temps[0]
+// 	for(let i = 0 ; i < temps.length ; i ++){
+// 		let curTemp = temps[i];
+// 		if(curTemp > max) max = curTemp;
+// 		if(curTemp < min) min = curTemp;		
+// 	}
+// console.log(max , min);
+// }
+// console.log(calcAmpTemp(['error',0,5,7,2,4,6,33]));
+
+
+// let str = 'ntn';
+// for(let i = str.length-1 ; i >= 0 ; i--){
+// 	let newStr = str[i] ;
+// 	console.log(newStr);
+// }
+
+
+
+// Reverse The String
+function revString(str){
+
+	let prevStr = str;
+	let newStr = ""
+
+ for(let i = str.length-1 ; i >= 0 ; i--){
+
+ 	 newStr += str[i];
+ }
+
+console.log(newStr);
+
+if(newStr !== prevStr){
+	console.log("string doesnt match")
+}else{
+	console.log('string matched')
+}
+
+
+}
+
+
+console.log(revString('ntn'));
 
 
 
