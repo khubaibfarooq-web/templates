@@ -1,0 +1,972 @@
+/* lg */
+@media (min-width: 1200px) {}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#ai-intro{
+    margin-bottom: 80px;
+}
+#gener-age{
+    margin-bottom: 100px;
+}
+#tolstoy{
+    margin-bottom: 120px;
+}
+#tolstoy-character{
+    margin-bottom: 160px;
+}
+#feature-app{
+    margin-bottom: 120px;
+}
+#our-vision{
+    margin-bottom: 120px;
+}
+#keeping-inline{
+    margin-bottom: 146px;
+}
+#tolstoys-beta{
+    margin-bottom: 140px;
+}
+    .navbar-toggler:focus{
+        outline: none;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0px 0px 0px;
+    }
+    
+    .section-mb{
+        margin-bottom: 100px;
+    }
+
+    .aletha-main-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .aletha-sm-heading {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .aletha-xl-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .aletha-detail-info {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .content-spacer {
+        padding: 56px 16px 40px 16px;
+    }
+
+    .aletha-primary-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .use-cases-slider .slick-track {
+        gap: 20px;
+    }
+
+    .use-cases-slider .slick-prev {
+        top: unset;
+        bottom: -80px;
+        right: 339px;
+    }
+
+    .use-cases-slider .slick-next {
+        top: unset;
+        bottom: -80px;
+        right: 274px;
+    }
+
+    .flex-wrapper {
+        align-items: center;
+    }
+
+    .featured-text-box {
+        width: 100%;
+    }
+    .feature-content-bg {
+     padding: 40px 16px;
+    }
+
+    .vision-text-box {
+        width: 100%;
+    }
+
+    .aletha-main-sub-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nft-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beta-text-box {
+        width: 100%;
+    }
+    .newsletter{
+        margin-bottom: 96px;
+    }
+    .newsletter-left-wrappr p{
+    	margin-bottom: 10px;
+    }
+
+.newsletter-left-wrappr {
+        width: 100%;
+        text-align: center;
+    }
+
+    .newsletter-right-wrappr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newsletter-inner {
+        padding: 40px 16px;
+        flex-direction: column;
+    }
+
+
+    .newsletter-email-wrapper {
+        flex-direction: column;
+        border: none;
+        background: transparent;
+    }
+
+    .newsletter-email-wrapper input {
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .newsletter-email-wrapper .btn-black {
+        width: 100%;
+    }
+    .inft-content-inner{
+        display: block;
+    }
+    .inft-content{
+        margin-bottom: 40px;
+    }
+
+    .inft-content h3 {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+
+    .inft-content p {
+    line-height: 28px;
+    color: #D8D8D8;
+   text-align: center;
+   max-width: 100%;
+}
+.inft-banner-img{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.protocol-check-section-listing{
+    display: block;
+}
+.inft-white-box{
+    display: block;
+    padding: 40px 16px;
+}
+.inft-box-heading h3{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.decent-section{
+    display: none;
+}
+.decent-box{
+    display: block;
+}
+.decent-content{
+    width: 100%;
+}
+.devcent-slider{
+    width: 100%;
+}
+.inft-protocol-wrapper .section-title > h3 {
+    width: 100%;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.inft-protocol-section .section-title h3{
+    width: 100%;
+    line-height: 42px;
+    text-align: center;
+}
+.inft-box-heading h3{
+    margin-bottom: 16px;
+}
+.inft-box-heading p{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.inft-info-center{
+    width: 100%;
+}
+
+.inft-learn-more{
+    margin-top: 40px;
+}
+.inft-images-section{
+    margin-bottom: 134px;
+}
+.liquid-inteligence-section{
+    margin-bottom: 56px;
+}
+.liquid-inteligence-section .aletha-main-heading{
+    margin-bottom: 24px;
+}
+.liquid-inteligence-section .aletha-detail-info{
+    margin-bottom: 58px;
+}
+.inft-ai-box p{
+    line-height: 24px;
+}
+
+.page-title{
+    margin-bottom: 120px;
+}
+
+.page-title .page-title-inner > h2 {
+    margin-bottom: 20px;
+}
+.page-title .page-title-inner > p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.imageContentSection{
+    margin-bottom: 133px;
+}
+.imageContentSection .content-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.imageContentSection .content-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.evolution-open{
+    margin-bottom: 120px;
+}
+.tech-open{
+    margin-bottom: 120px;
+}
+.milestoneWrapper{
+    margin-bottom: 120px;
+}
+.press-section{
+    margin-bottom: 120px;
+}
+.token-section{
+    margin-bottom: 188px;
+}
+.tech-open .section-title h3{
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+.tech-open .section-title p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.section-title h3{
+    width: 100%;
+}
+
+.tech-box-wrapper{
+    padding: 30px 16px;
+    margin: 40px 0;
+}
+
+.token-holder-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.token-holder-section img {
+    margin-bottom: 25px;
+    display: block;
+    width: 50%;
+}
+
+.tech-para p{
+    line-height: 28px;
+}
+
+
+.evolution-open .content-section h3{
+    font-size: 24px;
+line-height: 38px;
+margin-bottom: 8px;
+}
+
+.evolution-open .content-section p{
+
+line-height: 28px;
+
+}
+.evolution-open .section-img{
+    margin-bottom: 32px;
+}
+.publication {
+  margin-bottom: 136px;
+}
+.publication .section-title h3 {
+  text-align: center;
+   margin: 0px 0px 32px 0px;
+}
+.blogpost-detail .section-title h3{
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.publication-box{
+    display: block;
+    margin-bottom: 40px;
+}
+.publication-img{
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.publication-content{
+    padding-left: 0px;
+}
+
+.blogpost-detail {
+    margin-bottom: 140px;
+}
+.noah-ark .page-title-inner h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.metaverse-inft .section-img {
+    margin-bottom: 40px;
+}
+
+.metaverse-inft  .content-section h3{
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.metaverse-inft  .content-section p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.metaverse-inft{
+    margin-bottom: 70px;
+}
+.learnSection .section-title h3{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+.learnSection{
+    margin-bottom: 120px;
+}
+.external-app .page-title-inner h2{
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.ai-character .section-img {
+    margin-bottom: 40px;
+}
+
+.ai-character .content-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.ai-character .content-section p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.ai-character{
+    margin-bottom: 56px;
+}
+.learn-ai-character .section-title h3{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+
+.inft-banner {
+  margin-bottom: 81px;
+}
+
+.inft-protocol-allow {
+  margin-bottom: 120px;
+}
+.inft-protocol-wrapper {
+  margin-bottom: 120px;
+}
+
+.build-nft {
+  margin-bottom: 120px;
+}
+
+.power-nft{
+    margin-bottom: 0px;
+}
+.timeline-section-mb {
+  margin-bottom: 100px;
+}
+.timeline-section-mb .timeline-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+.timeline-section-mb .timeline-wrapper::before {
+    height: 100%;
+    border-right: 3px dashed #2E90FA;
+    z-index: 1;
+    width: 1px;
+    left: 50%;
+    top: -47px;
+}
+.timeline-section-mb .aletha-detail-info , .power-nft .aletha-detail-info{
+    background: #060610;
+    z-index: 2;
+    padding: 16px 0px;
+    margin: 0px 0px 41px 0px;
+}
+.timeline-circle-text-box {
+    margin-top: 30px;
+    height: auto;
+}
+.timeline-text-box {
+    width: 320px;
+    height: auto;
+}
+
+.aletha-mt {
+    margin-top: 35px;
+}
+
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+    #ai-intro{
+    margin-bottom: 80px;
+}
+#gener-age{
+    margin-bottom: 100px;
+}
+#tolstoy{
+    margin-bottom: 120px;
+}
+#tolstoy-character{
+    margin-bottom: 160px;
+}
+#feature-app{
+    margin-bottom: 120px;
+}
+#our-vision{
+    margin-bottom: 120px;
+}
+#keeping-inline{
+    margin-bottom: 146px;
+}
+#tolstoys-beta{
+    margin-bottom: 140px;
+}
+    .navbar-toggler:focus{
+        outline: none;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0px 0px 0px;
+    }
+    
+    .section-mb{
+        margin-bottom: 100px;
+    }
+
+    .aletha-main-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .aletha-sm-heading {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .aletha-xl-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .aletha-detail-info {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .content-spacer {
+        padding: 56px 16px 40px 16px;
+    }
+
+    .aletha-primary-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .use-cases-slider .slick-track {
+        gap: 15px;
+    }
+
+    .use-cases-slider .slick-prev {
+        top: unset;
+        bottom: -80px;
+        right: 255px;
+    }
+
+    .use-cases-slider .slick-next {
+        top: unset;
+        bottom: -80px;
+        right: 187px;
+    }
+
+    .flex-wrapper {
+        align-items: center;
+    }
+
+    .featured-text-box {
+        width: 100%;
+    }
+    .feature-content-bg {
+     padding: 40px 16px;
+    }
+
+    .vision-text-box {
+        width: 100%;
+    }
+
+    .aletha-main-sub-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nft-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beta-text-box {
+        width: 100%;
+    }
+    .newsletter{
+        margin-bottom: 96px;
+    }
+    .newsletter-left-wrappr p {
+    margin-bottom: 10px;
+	}
+
+    .newsletter-left-wrappr {
+        width: 100%;
+        text-align: center;
+    }
+
+    .newsletter-right-wrappr {
+        width: 100%;
+    }
+
+    .newsletter-inner {
+        padding: 40px 16px;
+        flex-direction: column;
+    }
+
+
+    .newsletter-email-wrapper {
+        flex-direction: column;
+        border: none;
+        background: transparent;
+    }
+
+    .newsletter-email-wrapper input {
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .newsletter-email-wrapper .btn-black {
+        width: 100%;
+    }
+
+    .inft-content-inner{
+        display: block;
+    }
+    .inft-content{
+        margin-bottom: 40px;
+    }
+
+    .inft-content h3 {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+
+    .inft-content p {
+    line-height: 28px;
+    color: #D8D8D8;
+   text-align: center;
+}
+.inft-banner-img{
+    margin-bottom: 80px;
+}
+
+.protocol-check-section-listing{
+    display: block;
+}
+.inft-white-box{
+    display: block;
+    padding: 40px 16px;
+}
+.inft-box-heading h3{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.decent-section{
+    display: none;
+}
+.decent-box{
+    display: block;
+}
+.decent-content{
+    width: 100%;
+}
+.devcent-slider{
+    width: 100%;
+}
+.inft-protocol-wrapper .section-title > h3 {
+    width: 100%;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.inft-protocol-section .section-title h3{
+    width: 100%;
+    line-height: 42px;
+    text-align: center;
+}
+.inft-box-heading h3{
+    margin-bottom: 16px;
+}
+.inft-box-heading p{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.inft-info-center{
+    width: 100%;
+}
+
+.inft-learn-more{
+    margin-top: 40px;
+}
+.inft-images-section{
+    margin-bottom: 134px;
+}
+.liquid-inteligence-section{
+    margin-bottom: 56px;
+}
+.liquid-inteligence-section .aletha-main-heading{
+    margin-bottom: 24px;
+}
+.liquid-inteligence-section .aletha-detail-info{
+    margin-bottom: 58px;
+}
+.inft-ai-box p{
+    line-height: 24px;
+}
+
+.page-title{
+    margin-bottom: 120px;
+}
+
+.page-title .page-title-inner > h2 {
+    margin-bottom: 20px;
+}
+.page-title .page-title-inner > p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.imageContentSection{
+    margin-bottom: 133px;
+}
+.imageContentSection .content-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.imageContentSection .content-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.evolution-open{
+    margin-bottom: 120px;
+}
+.tech-open{
+    margin-bottom: 120px;
+}
+.milestoneWrapper{
+    margin-bottom: 120px;
+}
+.press-section{
+    margin-bottom: 120px;
+}
+.token-section{
+    margin-bottom: 188px;
+}
+.tech-open .section-title h3{
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+.tech-open .section-title p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.section-title h3{
+    width: 100%;
+}
+
+.tech-box-wrapper{
+    padding: 30px 16px;
+    margin: 40px 0;
+}
+
+.token-holder-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.token-holder-section img {
+    margin-bottom: 25px;
+    display: block;
+    width: 50%;
+}
+
+.tech-para p{
+    line-height: 28px;
+}
+
+
+.evolution-open .content-section h3{
+    font-size: 24px;
+line-height: 38px;
+margin-bottom: 8px;
+}
+
+.evolution-open .content-section p{
+
+line-height: 28px;
+
+}
+.evolution-open .section-img{
+    margin-bottom: 32px;
+}
+.publication {
+  margin-bottom: 136px;
+}
+.publication .section-title h3 {
+  text-align: center;
+   margin: 0px 0px 32px 0px;
+}
+.blogpost-detail .section-title h3{
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.publication-box{
+    display: block;
+    margin-bottom: 40px;
+}
+.publication-img{
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.publication-content{
+    padding-left: 0px;
+}
+
+.blogpost-detail {
+    margin-bottom: 140px;
+}
+.noah-ark .page-title-inner h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.metaverse-inft .section-img {
+    margin-bottom: 40px;
+}
+
+.metaverse-inft  .content-section h3{
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.metaverse-inft  .content-section p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.metaverse-inft{
+    margin-bottom: 70px;
+}
+.learnSection .section-title h3{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+.learnSection{
+    margin-bottom: 120px;
+}
+.external-app .page-title-inner h2{
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.ai-character .section-img {
+    margin-bottom: 40px;
+}
+
+.ai-character .content-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.ai-character .content-section p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.ai-character{
+    margin-bottom: 56px;
+}
+.learn-ai-character .section-title h3{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+
+.inft-banner {
+  margin-bottom: 81px;
+}
+
+.inft-protocol-allow {
+  margin-bottom: 120px;
+}
+.inft-protocol-wrapper {
+  margin-bottom: 120px;
+}
+
+.build-nft {
+  margin-bottom: 120px;
+}
+
+.power-nft{
+    margin-bottom: 0px;
+}
+.timeline-section-mb {
+  margin-bottom: 100px;
+}
+.timeline-section-mb .timeline-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+.timeline-section-mb .timeline-wrapper::before {
+    height: 100%;
+    border-right: 3px dashed #2E90FA;
+    z-index: 1;
+    width: 1px;
+    left: 50%;
+    top: -47px;
+}
+.timeline-section-mb .aletha-detail-info , .power-nft .aletha-detail-info{
+    background: #060610;
+    z-index: 2;
+    padding: 16px 0px;
+    margin: 0px 0px 41px 0px;
+}
+.timeline-circle-text-box {
+    margin-top: 30px;
+    height: auto;
+}
+.timeline-text-box {
+    width: 320px;
+    height: auto;
+}
+
+.aletha-mt {
+    margin-top: 35px;
+}
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 480px) {}
