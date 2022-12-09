@@ -20,8 +20,8 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
     },
             {
@@ -57,8 +57,8 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
     },
             {
@@ -94,7 +94,7 @@ jQuery(document).ready(function () {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                 }
     },
             {
@@ -132,7 +132,7 @@ jQuery(document).ready(function () {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                 }
     },
             {
@@ -166,7 +166,7 @@ jQuery(document).ready(function () {
                 }
     },
             {
-                breakpoint: 575,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -209,8 +209,8 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
     },
             {
@@ -281,8 +281,8 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
     },
             {
