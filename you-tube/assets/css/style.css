@@ -1,0 +1,209 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+/*
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+/******************************
+ 		 HERO-CONTENT
+******************************/
+
+.navbar-brand {
+	text-decoration: none;
+	color: #fff !important;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.nav-link {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.navbar-nav>a {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}
+
+#gradient-bg {
+	height: 100vh;
+	background-blend-mode: multiply, multiply, normal, normal;
+	background-image: linear-gradient(to bottom left, rgba(216, 216, 216, 0.54) 0, rgba(216, 216, 216, 0.54) 49.9%, transparent 0%), linear-gradient(to bottom right, rgba(228, 228, 228, 0.54) 0, rgba(228, 228, 228, 0.54) 49.9%, transparent 0%), linear-gradient(to top left, #f4f4f4 0%, #f4f4f4 49.3%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(201deg, #F00 0%, #d60101 27%, #e00101 80%);
+	/*color: #fff;*/
+	background-position: top right, top left, right bottom 0px, left top;
+	background-repeat: no-repeat;
+	background-size: 0% 0%, 0% 0%, 105% 92%, 100% 100%;/*Sixth Parameter to adjust the height of top right */
+	padding-bottom: 20px;
+}
+
+#hero-content {
+	padding-top: 100px;
+	padding-bottom: 160px;
+}
+
+.card {
+	background-color: #ea252c !important;
+	border-radius: 10px !important;
+}
+
+.box-shadow {
+	box-shadow: -2px 11px 13px -1px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-img {
+	filter: drop-shadow(-12px 6px 15px rgba(0, 0, 0, 0.25));
+}
+
+.card-title {
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 700;
+	font-size: 32px !important;
+}
+
+.toggler {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.toggler-text {
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-right: 10px;
+}
+
+.toggler-break {
+	border: 2px solid #cc181e;
+	width: 215px;
+	margin-top: 1px;
+}
+
+.down-btn {
+	background-color: #cc181e;
+	color: #fff !important;
+	font-weight: 800;
+	font-size: 21px;
+}
+
+.card-text {
+	color: #fff;
+}
+
+.bld-txt {
+	color: #fff;
+	font-weight: 800 !important;
+}
+
+::placeholder {
+	color: #b8b8b8 !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.vec-img {
+	margin-top: 19px;
+	float: right;
+}
+
+.vec-img img {
+	height: 292px;
+	width: 479px;
+	border-radius: 0.8rem !important;
+}
+
+.usage-btn {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.use-btn {
+	background-color: #ea252c;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+.arrow-down {
+	background-color: #fff;
+	width: 60px;
+	height: 60px;
+	padding-top: 19px;
+	padding-left: 16px;
+	padding-right: 0px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+/******************************
+ 		 SWITCHES
+******************************/
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 51px;
+	height: 25px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 17px;
+	width: 17px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #cc181e;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+

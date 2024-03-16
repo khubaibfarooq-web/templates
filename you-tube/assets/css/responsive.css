@@ -1,0 +1,78 @@
+
+
+/*Laptop Device Screen*/
+
+@media screen and (max-width: 1112px) {
+	.vec-img img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+/*Laptop Device Screen*/
+@media screen and (max-width: 1024px) {}
+
+
+/*Tablet Device Screen*/
+@media screen and (max-width : 834px) {
+	.vec-img {
+		float: none;
+		text-align: center;
+		margin-top: 30px;
+	}
+}
+
+
+/*Tablet Device Screen*/
+@media screen and (max-width: 768px) {
+	.vec-img {
+		text-align: center;
+	}
+	#hero-content {
+		padding-top: 20px;
+	}
+}
+
+/*Moblie Large[protrait , landscape] Device Screen*/
+@media screen and (max-width: 767px) {
+	#gradient-bg {
+	height: auto;
+	background-position: top right, top left, right bottom -72px, left top;
+	}
+
+	#hero-content {
+		padding-top: 20px;
+	}
+	.md-bg {
+		background-color: #cc181e;
+		box-shadow: -2px 11px 13px -1px rgba(0, 0, 0, 0.25);
+	}
+	.navbar-dark .navbar-toggler {
+		border: none;
+	}
+	.navbar-brand {
+		color: #333;
+	}
+	.navbar-nav>a {
+		margin-left: 0px !important;
+	}
+	.card-title {
+		font-size: 27px !important;
+	}
+	.down-btn {
+		font-size: 18px;
+	}
+	.vec-img img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*Moblie Large Device Screen*/
+@media screen and (max-width: 420px) {}
+
+
+/*Mobile small Device Screen*/
+@media screen and (max-width: 320px) {}
+
