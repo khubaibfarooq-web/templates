@@ -471,7 +471,7 @@ padding: 20px;
 .token-wrapper{
 	background: var(--primary-color-3);
 	border-radius: 40px;
-	padding: 73px 30px 73px 80px;
+	padding: 73px 40px 73px 40px;
 }
 
 .token-content-area h2{
@@ -492,7 +492,8 @@ padding: 20px;
 
 }
 .cta-token img{
-	margin: 0px 5px 0px 0px;
+	display: block;
+	margin-inline: 10px;
 }
 .cta-token{
 	display: inline-flex;
