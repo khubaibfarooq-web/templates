@@ -13,13 +13,14 @@
 
 		e.preventDefault();
 		navBar.toggleClass("open-side-bar");
+        
 	let toggle =  menuIconClose.toggleClass("fa-times");
 
-	if(toggle.hasClass("fa-times")){
-		toggle.removeClass("fa-bars");
-	}else{
-		toggle.addClass("fa-bars");
-	}
+	// if(toggle.hasClass("fa-times")){
+	// 	toggle.removeClass("fa-bars");
+	// }else{
+	// 	toggle.addClass("fa-bars");
+	// }
 	body.toggleClass("body-overflow");
 	bodyOverlay.toggleClass("hidden");
 

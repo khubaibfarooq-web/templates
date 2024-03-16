@@ -1,0 +1,168 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+  .hire-content-area{
+  	padding: 0px 0px 0px 36px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1440px;
+  }
+  .hire-content-area{
+  	padding: 0px 0px 0px 47px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+}/*-----Querys-End------*/
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+}/*-----Querys-End------*/
+
+
+
+
+@media screen and (max-width: 767px) {
+/*----------------------------*\
+		COMMON
+\*----------------------------*/
+	.cta-btn{
+		width: 100%;
+		padding: 14px 64px 14px 64px;
+	}
+	.cta-token{
+		width: 100%;
+	}
+/*----------------------------*\
+		TOP-HEADER
+\*----------------------------*/
+.web-brand a > img {
+	max-width: 165px;
+}
+.cta-header {
+  padding: 9px 18px 9px 18px;
+  font-size: 16px;
+}
+
+/*----------------------------*\
+		HIRE
+\*----------------------------*/
+#hire{
+	padding: 50px 0px 50px 0px;
+}
+.hire-content-area{
+	padding: 0px 15px 0px 15px;
+}
+.hire-content-area > span{
+	margin: 0px 0px 10px 0px;
+}
+.hire-content-area h2 {
+  font-size: 36px;
+  line-height: 60px;
+  max-width: 406px;
+  margin: 0px auto 15px auto ;
+}
+.hire-content-area h2 > span::before {
+  top: -17px;
+  right: -33px;
+  width: 40px;
+  height: 40px;
+}
+.hire-content-area h2 > span::after {
+  right: -9px;
+}
+.form-wrapper{
+	padding: 70px 0px 70px 0px;
+}
+.form-bg{
+	padding: 25px 15px 25px 15px;
+}
+/*----------------------------*\
+		PARTNER
+\*----------------------------*/
+#trust-partner{
+  padding: 20px 0px 20px 0px;
+}
+#trust-partner::before {
+  left: -50px;
+}
+
+#trust-partner::after {
+  right: -50px;
+}
+/*----------------------------*\
+		ABOUT-US
+\*----------------------------*/
+#about-us {
+  padding: 50px 0px 50px 0px;
+}
+.about-img img {
+	width: 100%;
+}
+/*----------------------------*\
+		SERVICES
+\*----------------------------*/
+
+#services {
+  padding: 0px 0px 50px 0px;
+}
+/*----------------------------*\
+		CHOOSE-US
+\*----------------------------*/
+#choose-us {
+  padding: 50px 0px 25px 0px;
+}
+/*----------------------------*\
+		TOKEN
+\*----------------------------*/
+#token{
+	padding: 25px 0px 25px 0px;
+}
+.token-wrapper {
+  padding: 95px 30px 90px 30px;
+}
+.token-img-box img{
+	max-width: 326px;
+}
+/*----------------------------*\
+		CUSTOMER
+\*----------------------------*/
+#customer{
+	padding: 25px 0px 25px 0px;
+}
+/*----------------------------*\
+		OFFICE
+\*----------------------------*/
+#office {
+  padding: 25px 0px 25px 0px;
+}
+/*----------------------------*\
+		LEADS
+\*----------------------------*/
+#leads {
+  padding: 50px 0px 50px 0px;
+}
+
+
+}/*-----Querys-End------*/
+
+
+
+@media screen and (max-width: 380px) {
+
+/*----------------------------*\
+		HIRE
+\*----------------------------*/
+
+.hire-content-area h2 {
+    font-size: 28px;
+    max-width: 316px;
+  }
+  .hire-content-area h2 > span::after {
+  width: 197px;
+}
+
+
+}/*-----Querys-End------*/
