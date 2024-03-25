@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="pounds" transform="translate(-1071.5 -6527.5)">
+    <path id="Oval" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(1072.5 6528.5)" fill="none" stroke="#f46f22" stroke-width="2"/>
+    <text id="_" data-name="£" transform="translate(1081 6546)" fill="#f46f22" font-size="14" font-family="Helvetica"><tspan x="0" y="0">£</tspan></text>
+  </g>
+</svg>

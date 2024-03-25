@@ -1,0 +1,100 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+
+  .slider-text-box h1 {
+  width: 100%;
+}
+
+	.top-banner-img{
+		height: 350px;
+	}
+  .slider-bg-img {
+    height: 500px;
+}
+.slider-text-box p {
+  width: 100%;
+}
+#owl-carousel-1 .owl-dots {
+  bottom: 15px;
+}
+
+#calc-tab-pane .nav-link {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 5px 8px 5px 8px;
+}
+
+
+.top-banner-heading {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.top-banner-desc {
+  font-size: 15px;
+  text-align: center;
+  line-height: 19px;
+
+}
+.top-page-text-box .top-text {
+  font-size: 14px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.abl-primary-heading {
+  font-size: 15px;
+}
+.abl-secondary-heading {
+  font-size: 20px;
+}
+.branch-info-text {
+  font-size: 15px;
+  top: 15px;
+}
+.branch-sub-text {
+  font-size: 12px;
+  width: 221px;
+  top: 43px;
+}
+.banking-internal-heading {
+  font-size: 12px;
+ 
+}
+.banking-internal-items {
+  font-size: 11px;
+}
+.branch-text-box {
+  padding: 30px 15px 12px 15px;
+}
+
+
+
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+}

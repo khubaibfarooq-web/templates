@@ -1,0 +1,24 @@
+:root {
+ --colorgreen:#197056;
+ --colorblack:#000;
+ --bgcolor:#fff;
+ --colorwhite:#fff;
+ --cookie-cross:brightness(0) invert(1);
+ --maintext:#333;
+ --txtlightgrey:#999;
+ --txtrangegrey:#a5aaaa;
+ --bordercolor:#c3c4c5;
+ --iconfilter:grayscale(100%);
+ --iconfilterhover:grayscale(0%);
+ --arrowslider:#c3c4c5;
+ --search-input:#fff;
+ --card-shadow:#c3c4c5;
+ --b-bottom:#fff;
+ --menu-close:rgba(255,255,255,0.3);
+ --menu-mob-bg:#f4f2f3;
+ --lghtgreyiconfiler:grayscale(100%);
+ --lghtgreyiconfilerhover:grayscale(0%);
+ --maintextwhite:#333;
+ --fademenubg:rgba(0,0,0,0.7);
+ --mobbgfadeshadow:rgb(0 0 0 / 57%)
+}
