@@ -1,0 +1,32 @@
+https://schulich.ucalgary.ca/about/schulich-momentum
+https://www.ocmtontario.ca/?gad_source=1
+https://html.dynamiclayers.net/dl/unimax/index.html?storefront=envato-elements
+https://nunforest.com/studiare/?storefront=envato-elements
+https://html.dynamiclayers.net/dl/unimax/index.html?storefront=envato-elements
+
+
+
+  
+
+    Figma design not following Bootstrap grid system: The design should be adjusted to align with the Bootstrap grid system for better consistency and responsiveness across devices. This might involve redesigning layout elements to fit within the grid structure. 
+
+    Margins, paddings, and image sizes not optimized for device resolution: Adjust margins, paddings, and image sizes to be responsive to different device resolutions. Media queries can be used to specify different styles for different screen sizes. 
+
+    Menu conversion to a mega-menu for improved usability: Redesign the menu to incorporate a mega-menu layout, which can accommodate more content and reduce the number of clicks required for navigation. Include an additional promotional banner for the new course within the mega-menu. 
+
+    Integration of a news ticker for promotional news: Implement a news ticker feature to display promotional news or updates prominently on the website, attracting users' attention to important announcements. 
+
+    Placement of arrows on the slider for navigation: Add navigation arrows to the slider component to make it easier for users to navigate through the slides. 
+
+    Adjust font color and size for better readability: Review and adjust font colors and sizes throughout the website to ensure they are visually comfortable and don't strain the eyes. 
+
+    Implementation of internal linking across the website: Strategically add internal links within the content to improve navigation and help users discover related pages or content within the website. 
+
+    Creation of a sitemap for the website: Develop a sitemap to provide a structured overview of the website's content and organization, making it easier for search engines to crawl and index the site and for users to navigate. 
+
+    Update website logo color scheme to better fit the theme: Adjust the color scheme of the website logo to harmonize better with the overall theme and design aesthetic of the site. 
+     
+
+Addressing these issues should lead to an improved user experience and overall effectiveness of the website 
+
+ 

@@ -1,0 +1,358 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+:root{
+--color-1:#191C19;
+--color-2:#fff;
+--color-3:#930012;
+--color-4:#015430;
+--color-5:#C2C2C2;
+--color-6:#ECF8FD;
+--color-7:#999999; 
+
+
+}
+
+/*============================*\
+		TYPOGRAPHY
+\*============================*/
+
+/*----------------------------*\
+	Open Sans
+\*----------------------------*/
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBold.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-weight: 700;
+}
+/*----------------------------*\
+	Petrona
+\*----------------------------*/
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-Regular.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-SemiBold.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-SemiBoldItalic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-BoldItalic.ttf');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Petrona';
+	src: url('../fonts/Petrona-ExtraBoldItalic.ttf');
+	font-weight: 800;
+	font-style: italic;
+}
+
+
+
+body {
+	font-family: 'Open Sans';
+	color:#2C2C2C;
+	font-size:16px;
+	font-weight:300;
+	/*padding: 40px 0px 0px 0px;*/
+}
+
+/*h1,h2,h3,h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+}
+*/
+/*h1 {
+	font-size:31.104px;
+}
+
+h2 {
+	font-size:25.92px;
+}
+
+h3 {
+	font-size:21.6px;
+}
+
+h4 {
+	font-size:18px;
+}
+
+h5 {
+	font-size:15px;
+}
+*/
+a {
+	font-weight:400;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+
+/*============================*\
+			TOP-BAR
+\*============================*/
+.top-bar{
+	padding: 8px 0px 8px 0px;
+	background-color: var(--color-1);
+}
+.top-nav-menu li {
+	padding: 0px 10px 0px 10px;
+}
+.top-nav-menu li a {
+	font-size: 12px;
+	color: var(--color-2);
+}
+
+/*============================*\
+			HERO-BANNER
+\*============================*/
+.custom-container{
+	max-width: 1280px;
+}
+
+#hero-banner{
+background: url(../img/banner-lg.png) no-repeat top;
+background-repeat: no-repeat;
+background-position: center 100%;
+background-size: cover;
+}
+
+.banner-text-box{
+	padding: 182px 0px 425px 0px; 
+}
+.banner-text-box h1 {
+	 font-family: Petrona;
+	 font-weight: 800;
+	 font-style: italic;
+	 font-size: 64px;
+	 line-height: 50px;
+	 color: var(--color-3);
+	 max-width: 591px;
+
+}
+.banner-text-box h3 {
+ font-family: Petrona;
+	 font-weight: 700;
+	 font-style: italic;
+	 font-size: 32px;
+	 color: var(--color-4);
+}
+
+.banner-text-box a{
+ 	display: inline-flex;
+ 	align-items: center;
+ 	border-radius: 30px;
+ 	color: var(--color-4);
+ 	font-size: 16px;
+ 	font-family: Petrona;
+ 	font-weight: 700;
+ 	line-height: 22px;
+ 	background-color: var(--color-6);
+ 	border: 1px solid var(--color-7);
+ 	padding: 3px 16px 3px 16px;
+ 	text-transform: capitalize;
+}
+.mobile-menu-toggler-box{
+	max-width: 100px;
+	border-radius: 30px;
+	border:1px solid var(--color-7);
+    padding: 4px 10px 4px 10px;
+}
+.mobile-menu-toggler-box .toggler-text{
+	color: var(--color-4);
+	font-size: 12px;
+	font-family: 'Petrona';
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.mobile-menu-toggler-box img{
+	height: 17px;
+	width: 17px;
+}
+
+
+/*----------------------------*\
+		NAVBAR
+\*----------------------------*/
+
+nav > ul >  li{
+	padding: 10px 25px 10px 0px;
+	position: relative;
+}
+nav > ul > li > a{
+	font-size: 16px;
+	font-weight: 500;
+  position: relative;
+  color: var(--color-1);
+}
+nav > ul > li > a::after{
+	font-family: "fontAwesome";
+  content: "\f107";
+  right: -15px;
+  position: absolute;
+  color: var(--color-1);
+  top: 0px;
+
+}
+nav > ul > li:hover > ul {
+	display: block;
+	animation: fadeInUp 0.5s;
+}
+
+nav > ul > li > ul > li{
+	padding: 0px 15px 0px 15px;
+}
+
+
+nav > ul > li > ul > li{
+	position: relative;
+	border-bottom: 1px solid var(--color-5);
+}
+nav > ul > li > ul > li:last-child{
+	border-bottom: none;
+}
+nav > ul > li > ul > li > a{
+	color: #333;
+  font-size: 14px;
+  padding: 8px 10px;
+  display: block;
+  width: 100%;
+  transition: 0.4s;
+}
+nav > ul > li > ul > li:hover > a{
+	color: var(--color-2);
+  background-color: var(--color-4);
+  border-radius: 5px;
+}
+
+nav > ul > li > ul > li::after{
+	
+font-family: "fontAwesome";
+  content: "\f107";
+  right: 20px;
+  position: absolute;
+  color: var(--color-1);
+  top: 8px;
+  transition: 0.4s;
+}
+
+nav > ul > li > ul > li:hover::after{
+transform: rotate(-90deg);
+color: var(--color-2);
+}
+
+nav > ul > li > ul {
+	display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  min-width: 270px;
+  padding: 10px 0;
+  border-radius: 10px;
+background-color: var(--color-2);
+box-shadow: -3px 0px 3px 0px #00000040;
+}
+
+nav > ul > li > ul > li:hover > ul {
+	display: block;
+	animation: fadeInUp 0.5s;
+	
+}
+
+nav > ul > li > ul > li > ul {
+	display: none;
+  position: absolute;
+  top: -10px;
+  left: 100%;
+  min-width: 270px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+ 	background-color: var(--color-4);
+box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+nav > ul > li > ul > li > ul > li {
+padding: 0px 15px 0px 15px;
+
+}
+nav > ul > li > ul > li > ul > li > a{
+
+color: var(--color-2);
+  font-size: 14px;
+  padding: 8px 10px;
+  display: block;
+  width: 100%;
+}
+
+
+.vision-box{
+	display: inline-flex;
+	align-items: center;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	padding: 5px 10px 5px 10px;
+	color: var(--color-2);
+	background-color: var(--color-3);
+}
+
+.vision-box span{
+	font-size: 16px;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

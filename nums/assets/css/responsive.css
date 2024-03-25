@@ -1,0 +1,75 @@
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+}/*-----Querys-End------*/
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+#hero-banner{
+background: url(../img/banner-md.png) no-repeat top;
+background-repeat: no-repeat;
+background-position: center 100%;
+background-size: cover;
+}
+
+}/*-----Querys-End------*/
+
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+#hero-banner{
+background: url(../img/banner-md.png);
+background-repeat: no-repeat;
+background-position: center 100%;
+background-size: cover;
+}
+
+
+}/*-----Querys-End------*/
+
+
+
+@media screen and (max-width: 767px) {
+
+#hero-banner{
+background: url(../img/banner-sm.png) no-repeat;
+background-repeat: no-repeat;
+background-position: center 100%;
+background-size: cover;
+}
+
+.vision-box{
+	max-width: 100px;
+	padding: 3px 8px 3px 8px;
+}
+
+.vision-box span{
+font-size: 9px;
+    max-width: 80px;
+    text-align: center;
+    line-height: 11px;
+}
+.vision-box img{
+height: 17px;
+width: 17px;
+}
+
+
+.banner-text-box {
+  padding: 40px 0px 353px 0px;
+}
+.banner-text-box h1 {
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  max-width: 305px;
+}
+
+.banner-text-box h3 {
+  font-size: 16px;
+}
+
+.banner-text-box a {
+  font-size: 12px;
+  padding: 2px 14px 2px 14px;
+}
+
+}/*-----Querys-End------*/
