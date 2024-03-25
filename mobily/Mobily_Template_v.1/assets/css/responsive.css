@@ -1,0 +1,185 @@
+/*======
+*
+* 10. Responsive
+*
+======*/
+@media (max-width: 1415px) {
+
+}
+
+@media (max-width: 1310px) {
+
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1199px) {	
+
+}
+
+@media (max-width: 1160px) {
+	
+}
+
+@media (max-width: 1050px) {
+	
+}
+
+@media (max-width: 999px) {
+	
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 950px) {
+	
+}
+
+@media (max-width: 900px) {
+	
+}
+
+@media (max-width: 767px) {
+	
+}
+
+@media (max-width: 600px) {
+	
+}
+
+@media (max-width: 500px) {
+
+}
+
+@media (max-width: 480px) {
+	
+}
+
+@media (max-width: 450px) {
+	#bg-gradient {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.mobile-apps {
+		margin-top: 50px;
+	}
+	.mobile-apps img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.payment-steps-icon img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.btn-payment{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.get-str-img img{
+		width: 256px !important;
+	}
+	.company-logo img{
+
+	}
+}
+
+
+@media (max-width: 420px) {
+	#bg-gradient {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.mobile-apps {
+		margin-top: 50px;
+	}
+	.mobile-apps img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.payment-steps-icon img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.btn-payment{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.get-str-img img{
+		width: 256px !important;
+	}
+	.company-logo img{
+
+	}
+}
+
+
+
+
+@media (max-width: 400px) {
+	#bg-gradient {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.mobile-apps {
+		margin-top: 50px;
+	}
+	.mobile-apps img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.payment-steps-icon img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.btn-payment{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.get-str-img img{
+		width: 256px !important;
+	}
+	.company-logo img{
+
+	}
+}
+
+
+@media (max-width: 320px) {
+	#bg-gradient {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.mobile-apps {
+		margin-top: 50px;
+	}
+	.mobile-apps img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.payment-steps-icon img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.btn-payment{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.get-str-img img{
+		width: 256px !important;
+	}
+	.company-logo img{
+
+	}
+}

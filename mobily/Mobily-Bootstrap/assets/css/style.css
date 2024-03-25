@@ -1,0 +1,716 @@
+
+
+body {
+	overflow-x: hidden;
+}
+
+
+/*********************
+		FONTS
+**********************/
+
+@font-face {
+	font-family: 'popi';
+	src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'raqi';
+	src: url('../fonts/Raqi-Book.ttf');
+}
+
+@font-face {
+	font-family: 'raqi-med';
+	src: url('../fonts/Raqi-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'raqi-exlt';
+	src: url('../fonts/Raqi-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: 'raqi-bold';
+	src: url('../fonts/Raqi-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'raqi-exbold';
+	src: url('../fonts/Raqi-ExtraBold.ttf');
+}
+
+
+/*********************
+	COMMON-STYLING
+**********************/
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+.active-page-item {
+	border-bottom: 3px solid #6cc24a
+}
+
+.sec-pad-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.sec-pad-50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.sec-pad-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.sec-main-title {
+	font-family: raqi;
+	font-size: 50px;
+	color: #000;
+	line-height: 60px;
+}
+
+.sec-title-info {
+	font-family: popi;
+	font-size: 17px;
+	line-height: 27px;
+}
+
+.sec-sub-title {
+	font-family: popi;
+	font-size: 30px;
+	line-height: 20px;
+}
+
+
+/*--------------------------
+Other-common-pages-styling
+---------------------------*/
+
+.detail-content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.dt-img {
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.detail-section-heading h1 {
+	color: #fff;
+	font-family: raqi;
+	font-weight: 300;
+	font-size: 70px;
+	letter-spacing: 2px;
+	line-height: 4em;
+	text-align: center;
+}
+
+.breadcrumb a {
+	color: #616368;
+	font-weight: 400;
+	font-family: "raqi-med";
+	text-decoration: none;
+}
+
+.breadcrumb-item.active {
+	color: #6cc24a;
+	font-size: 16px;
+	font-family: raqi-med;
+}
+
+
+/*********************
+	TOP-HEADER
+**********************/
+
+.custom-col {
+	width: 114px;
+	max-width: 122px;
+	float: left;
+}
+
+
+/*********************
+	SUB-HEADER
+**********************/
+
+.sub-header {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: 500ms;
+}
+
+.smooth-nav {
+	background: rgba(0, 0, 0, .6);
+	padding: 0px;
+}
+
+.nav-item {
+	margin-right: 24px;
+}
+
+.nav-item .nav-link {
+	font-family: raqi;
+	font-size: 14px;
+	color: #fff !important;
+	text-transform: uppercase;
+}
+
+.bg-none {
+	background-color: unset !important;
+}
+
+.custom-form {
+	border-radius: 20px;
+	border: unset;
+}
+
+
+/*********************
+	HERO-SLIDER
+**********************/
+
+.slider-pad-top {
+	padding-top: 200px;
+}
+
+.custom-item-1,
+.custom-item-2,
+.custom-item-3 {
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	height: 100vh !important;
+}
+
+.custom-item-1 {
+	background: url(../img/web-imgs/2nd-slide.webp);
+}
+
+.custom-item-2 {
+	background: url(../img/web-imgs/1st-slide-banner.webp);
+}
+
+.custom-item-3 {
+	background: url(../img/web-imgs/2nd-slide.webp);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	width: 10%;
+}
+
+.hero-main-content {
+	padding-left: 20px;
+}
+
+.hero-content h1 {
+	font-family: raqi-med;
+	font-size: 70px;
+	color: #fff;
+	letter-spacing: 0.9941px;
+	line-height: 80px;
+	word-spacing: 6px;
+}
+
+.text-green {
+	color: rgb(108, 194, 74);
+}
+
+.text-grey {
+	color: #616368;
+}
+
+.hero-content-sub-title {
+	font-family: raqi;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 0px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.carousel-indicators .active {
+	opacity: 1;
+	background-color: #6cc24a !important;
+}
+
+/*********************
+	VIDEO-BANNER
+**********************/
+#video-banner{
+	display: none;
+}
+
+#video-banner {
+position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#video-banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#video-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.vid-banner-text{
+	position: relative;
+	z-index: 2;
+}
+.vid-banner-text .display-2{
+	font-family: popi !important;
+}
+
+/*********************
+	EXPLORE-CARDS
+**********************/
+
+.compare-card {
+	color: #fff !important;
+	border-width: 0px !important;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-family: "Raqi Book", Helvetica, Arial, Lucida, sans-serif !important;
+	text-transform: uppercase !important;
+	background-color: #6cc24a;
+	padding-top: 16px !important;
+	padding-right: 86px !important;
+	padding-bottom: 16px !important;
+	padding-left: 86px !important;
+}
+
+
+/*********************
+	MONEY-TRANSFER
+**********************/
+
+#money-transfer {
+	background: url(../img/web-imgs/explore-cards.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+
+/*********************
+	PAYMENTS
+**********************/
+
+#payments {
+	background: url(../img/web-imgs/payments.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*********************
+	NEQATIY
+**********************/
+
+#neqaity {
+	background: url(../img/web-imgs/neqaty.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*********************
+	HELP & SUPPORT
+**********************/
+
+.accordion-item {
+	background-color: #f5f7fa;
+	border: none;
+}
+
+.accordion-button {
+	background-color: #f5f7fa !important;
+	border: none;
+	font-size: 18px;
+	font-weight: 550;
+	font-family: popi;
+	padding: 14px 40px;
+}
+
+.accordion-body {
+	color: #616368;
+	font-size: 16px;
+	font-family: popi;
+	padding: 14px 40px;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #f5f7fa !important;
+	box-shadow: unset;
+	color: #333;
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button::after {
+	color: #333;
+}
+
+.accordion-button:focus {
+	z-index: 3;
+	border-color: unset;
+	outline: 0;
+	box-shadow: unset;
+}
+
+.accordion-explore-more a {
+	color: #009cde;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+/*********************
+	TOP-FOOTER
+**********************/
+
+#top-footer {
+	background: url(../img/web-imgs/Phone.webp);
+}
+
+.about-company h3 {
+	font-family: raqi-med;
+	font-size: 20px;
+	color: #6cc24a;
+	line-height: 24px;
+}
+
+.about-company p {
+	font-size: 14px;
+	font-family: raqi;
+	color: #616368;
+}
+
+.text-blue {
+	color: #009cde;
+}
+
+
+/*********************
+	SUB-FOOTER
+**********************/
+
+#sub-footer {
+	background-color: #009cde !important;
+}
+
+.social-media ul li {
+	display: inline-block;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.social-media ul li:last-child {
+	margin-right: 0px;
+}
+
+.copy-rights {
+	color: #fff;
+	font-family: raqi;
+	font-size: 14px;
+}
+
+
+/*********************
+     ABOUT-US
+**********************/
+
+.about-company-detail h2 {
+	font-family: raqi;
+	font-size: 60px;
+	color: #000 !important;
+	line-height: 60px;
+}
+
+.about-company-detail p {
+	color: #616368;
+	font-family: raqi;
+	line-height: 26px;
+}
+
+
+/*********************
+     	OFFERS
+**********************/
+
+.portfolio-img {
+	position: relative;
+}
+
+.portfolio-img::after {
+	content: "";
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.portfolio-img img {
+	max-width: 100%;
+	min-height: 390px;
+	max-height: 390px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.offer-wrapper a {
+	text-decoration: none;
+}
+
+.offer-wrapper {
+	position: relative;
+}
+
+.offer-text-inner-wrapper h2 {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: raqi-bold;
+	position: absolute;
+	top: 50%;
+	color: #fff;
+	left: 0;
+	right: 0;
+	margin: 0px !important;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0 60px;
+	max-width: 376px;
+	max-height: 72px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.offer-text-inner-wrapper p {
+	font-family: raqi;
+	position: absolute;
+	top: 70%;
+	color: #fff;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: left;
+	padding: 0 60px;
+	font-size: 15px;
+	max-width: 376px;
+	max-height: 90px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.offer-explore-more {
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 85%;
+	left: 17%;
+	z-index: 2;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.offer-explore-more:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.custom-btn-close {
+	background: #fb121200 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.custom-modal-content {
+	background-color: unset;
+	border: unset;
+}
+
+.custom-modal-header {
+	border-bottom: unset;
+}
+
+.custom-modal-footer {
+	border-top: unset;
+	background-color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.modal-body-wrapper {
+	position: relative;
+}
+
+.modal-body-inner-wrapper h1 {
+	color: #fff;
+	font-size: 36px;
+	padding-left: 20px;
+	padding-right: 10px;
+	position: absolute;
+	top: 82%;
+}
+
+
+/*********************
+     	FAQS
+**********************/
+
+.faq-box {
+	border-radius: 8px;
+	border: solid 1px #e6e6e6;
+	background-color: #fafafa;
+	padding: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.7s;
+}
+
+.faq-box:hover {
+	text-decoration: none;
+	transform: translateY(-10px);
+}
+
+.bg-circle-img {
+	margin: 0 auto;
+	display: inline-block;
+	background: url(../img/web-imgs/faq-circle.png) no-repeat top center;
+	width: 100%;
+	height: 50px;
+	max-width: 50px;
+	text-align: center;
+	background-size: contain;
+}
+
+.faq-icon {
+	min-width: auto;
+	width: 35px;
+	height: 35px !important;
+	text-align: center;
+	margin: 7px auto;
+}
+
+.faq-detail-box h2 {
+	color: #000;
+	font-family: popi;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+
+.faq-detail-box p {
+	color: #616368;
+	font-family: popi;
+	font-size: 14px;
+	font-weight: 550;
+}
+
+
+/*********************
+    FAQS-DETAILS
+**********************/
+
+.faq-detail-img-container {
+	margin-bottom: 0;
+	background: url(../img/web-imgs/faq-circle.png) no-repeat top center;
+	width: 100%;
+	height: 110px;
+	max-width: 110px;
+	display: block;
+	text-align: center;
+}
+
+.faq-detail-img-wrap {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	padding-top: 18px;
+	text-align: center;
+}
+
+.faq-detail-heading {
+	font-size: 40px;
+	font-family: popi;
+	font-weight: 600;
+	color: #6cc24a !important;
+}
+
+.faq-detail-info {
+	color: #616368;
+	font-family: popi;
+	font-size: 16px;
+}
+

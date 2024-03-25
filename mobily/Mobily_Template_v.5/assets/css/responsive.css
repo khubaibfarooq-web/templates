@@ -1,0 +1,141 @@
+/*Laptop Device Screen*/
+
+@media screen and (max-width: 1024px) {}
+
+
+/* #### Tablets Portrait or Landscape #### */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+  .wave {
+    display: none !important;
+  }
+  .vec-img {
+    max-width: 100%;
+  }
+}
+
+
+/*Tablet Device Screen*/
+
+@media screen and (max-width: 768px) {}
+
+
+/*Table-Landscape*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .wave {
+    display: none !important;
+  }
+  .bg-gradient {
+    padding-bottom: 0px !important;
+  }
+  .vec-img {
+    max-width: 100%;
+  }
+}
+
+
+/*Moblie Large Device Screen*/
+
+@media screen and (max-width: 425px) {
+  .navbar-brand img {
+    max-width: 160px;
+  }
+  .navbar-brand {
+    margin-right: 5rem;
+  }
+  .wave {
+    display: none !important;
+  }
+  .hero-content {
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+  .vec-img {
+    max-width: 100%;
+  }
+  .blogrex-title {
+    font-size: 2em;
+  }
+  .content-align {
+    color: #ffff;
+    text-align: center !important;
+  }
+  .blogrex-tagline {
+    text-align: center;
+  }
+  .section-service {
+    padding-top: 50px;
+  }
+  .bg-gradient {
+    padding-bottom: 0px;
+  }
+}
+
+
+/*Mobile small Device Screen*/
+
+@media screen and (max-width: 375px) {
+  .navbar-brand {
+    margin-right: 4rem;
+  }
+  .wave {
+    display: none !important;
+  }
+  .hero-content {
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+  .vec-img {
+    max-width: 100%;
+  }
+  .blogrex-title {
+    font-size: 2em;
+  }
+  .content-align {
+    color: #ffff;
+    text-align: center !important;
+  }
+  .blogrex-tagline {
+    text-align: center;
+  }
+  .section-service {
+    padding-top: 50px;
+  }
+  .bg-gradient {
+    padding-bottom: 0px;
+  }
+}
+
+
+/*Mobile small Device Screen*/
+
+@media screen and (max-width: 320px) {
+  .wave {
+    display: none !important;
+  }
+  .hero-content {
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+  .vec-img {
+    max-width: 100%;
+  }
+  .blogrex-title {
+    font-size: 2em;
+  }
+  .content-align {
+    color: #ffff;
+    text-align: center !important;
+  }
+  .blogrex-tagline {
+    text-align: center;
+  }
+  .section-service {
+    padding-top: 50px;
+  }
+  .bg-gradient {
+    padding-bottom: 0px;
+  }
+}
+

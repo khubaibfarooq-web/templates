@@ -1,0 +1,102 @@
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#carouselExampleCaptions {
+		display: none;
+	}
+	#video-banner {
+		display: block;
+	}
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+	#carouselExampleCaptions {
+		display: none;
+	}
+	#video-banner {
+		display: block;
+	}
+	.nav-sm-pad{
+		padding: 5px 5px;
+	}
+	.navbar-dark .navbar-toggler{
+		border:none;
+	}
+	.navbar-toggler:focus {
+	    box-shadow: none;
+	}
+	.navbar-dark .navbar-toggler-icon {
+    	background-image: none;
+	}
+	.mb-sm-5{
+		margin-bottom: 50px;
+	}
+	#explore-cards{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.sec-main-title {
+	    font-size: 30px;  
+	    line-height: 36px; 
+	    margin-bottom: 16px;
+	}
+	.sec-title-info{
+		font-size: 15px;
+	}
+	.sec-sub-title{
+		font-size: 22px;
+	}
+	.money-trans-steps img{
+		width: 65px;
+		height: 65px;
+	}
+	.money-trans-img-pabs img{
+		min-height: 250px;
+		max-height: 350px;
+		max-width: 240px;
+	}
+	.money-trans-img-pabs {
+		display: block;
+		position: absolute;
+		top: 48%;
+		left: 29%;
+
+	}
+
+}
+
+
+
+/* XS Portrait */
+
+@media (max-width: 480px) {
+	#carouselExampleCaptions {
+		display: none;
+	}
+	#video-banner {
+		display: block;
+	}
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 320px) {
+	#carouselExampleCaptions {
+		display: none;
+	}
+	#video-banner {
+		display: block;
+	}
+}
+

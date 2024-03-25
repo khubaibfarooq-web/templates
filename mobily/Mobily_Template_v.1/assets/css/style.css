@@ -1,0 +1,179 @@
+/***********
+TYPOGRAPHY
+***********/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+/*font-family: 'Barlow Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+/*font-family: 'Archivo', sans-serif;*/
+
+/*****
+NAVBAR
+******/
+.bg-nav{
+	background-color: #009CDE !important;
+}
+.nav-link{
+	text-transform: uppercase;
+	color: #fff !important;
+	font-family: 'Archivo', sans-serif;
+}
+.nav-item{
+	margin-right: 15px;
+}
+
+
+/************
+HERO-CONTENT
+************/
+#bg-gradient{
+	height: auto;
+	background-color: #009CDE !important;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 121%);
+
+}
+.main-title{
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 500;
+	word-spacing: 8px;
+}
+.highlight-text{
+	font-weight: 700;
+}
+.info-para{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Archivo', sans-serif;
+}
+.mobile-apps{
+	margin-top: 100px;
+}
+
+/************
+EXPLORE-CARD
+************/
+#explore-card{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #fafafa;
+}
+.debit-card{
+	height: 205px;
+	width: 205px;
+	background-color: #e7e7e7;
+	border-radius: 50%;
+}
+.card-heading{
+	font-size: 50px;
+	color: #333;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 500;
+	word-spacing: 8px;
+}
+.card-para{
+	font-size: 20px;
+	color: #333;
+	font-family: 'Archivo', sans-serif;
+}
+.btn-explore-more{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Archivo', sans-serif;
+	text-transform: uppercase;
+	background-color: #6dc24b;
+	word-spacing: 8px;
+}
+
+/***************
+MANAGE-SERVICES
+****************/
+#manage-services{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #fff;
+}
+.sub-heading{
+	color: #6dc24b;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Archivo', sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+.payment-steps-icon img{
+	width: 70px;
+	height: 70px;
+}
+.bg-full-width-outer{
+	position: relative;
+}
+.bg-full-width-inner{
+	position:absolute;
+	background-color: yellow;
+	top:80%; 
+	padding: 100px;
+}
+
+/***************
+GET-STARTED
+****************/
+#get-started{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #fafafa;
+}
+.get-str-img{
+	text-align: center;
+}
+
+/***************
+FOOTER
+****************/
+#footer{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #6dc24b;
+}
+.useful-links ul{
+	padding: 0px;
+	margin:0px;
+	list-style-type: none;
+}
+.useful-links ul li{
+	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Archivo', sans-serif;
+
+}
+.useful-links-heading{
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.social-media-icons ul{
+	padding: 0px;
+	margin:0px;
+	list-style-type: none;
+}
+.social-media-icons ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.social-media-icons ul li i{
+	color: #fff;
+	font-size: 15px;
+}
+.copy-right p{
+	color: #fff;
+	text-align: center;
+	font-family: 'Archivo', sans-serif;
+	margin-top: 10px;
+	font-size: 15px;
+}
